@@ -1,6 +1,12 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: {{ now.Format "2006/01/02"}}
 date: {{ .Date }}
-draft: true
+archives: ["{{ now.Format "2006/01"}}"]
 ---
+### 気になった記事・読んだ記事など
 
+### 便利ツール・ショートカット
+
+### 公開したもの
+
+### ひとこと

@@ -5,3 +5,6 @@ theme = ["one"]
 
 [params]
     navigation = ["about.md"]
+    
+[taxonomies]
+	archive = "archives"
