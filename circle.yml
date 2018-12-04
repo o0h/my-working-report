@@ -1,0 +1,26 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: felicianotech/docker-hugo:latest
+    steps:
+      - checkout
+      - run: git config --global user.email "o0h@users.noreply.github.com"
+      - run: git config --global user.name "Hideki Kinjyo"
+      - run: echo "machine github.com login o0h password $GITHUB_TOKEN" > ~/.netrc
+      - run: git submodule sync
+      - run: git submodule update --init --recursive
+      - run: git worktree add -B gh-pages public origin/gh-pages
+      - run: rm -rf public/*
+      - run: hugo
+      - deploy:
+          command: cd public && git add . && git diff --cached --exit-code --quiet || git commit -m "Rebuilding site" && git push origin gh-pages
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: master
