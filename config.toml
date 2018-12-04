@@ -1,0 +1,7 @@
+baseURL = "/"
+languageCode = "ja-jp"
+title = "まいにち書くぞ"
+theme = ["one"]
+
+[params]
+    navigation = ["about.md"]
