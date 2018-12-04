@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>まいにち書くぞ</title>
-    <link>/</link>
-    <description>Recent content on まいにち書くぞ</description>
+    <title>2018/12 on まいにち書くぞ</title>
+    <link>/archives/2018/12/</link>
+    <description>Recent content in 2018/12 on まいにち書くぞ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Tue, 04 Dec 2018 19:43:17 +0900</lastBuildDate>
     
-        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/archives/2018/12/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -53,27 +53,6 @@
 &lt;p&gt;とりあえず、「Hugoで毎日メモを作っていこう！」と決めた日。&lt;br /&gt;
 Terminal VIM / Visual Studio Codeがメインエディタになるのかな〜というイメージ。画像を使うなら後者か。&lt;br /&gt;
 ひとまず「まぁVS Codeの方が汎用性高いかな？」ということで、 「ターミナルからコンテンツ作成&amp;amp;&amp;amp;エディタ起動」みたいなfunciton定義して.zhsrcに入れておいた。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Tue, 04 Dec 2018 16:06:52 +0900</pubDate>
-      
-      <guid>/about/</guid>
-      <description>
-
-&lt;h3 id=&#34;about-this-site&#34;&gt;about this site&lt;/h3&gt;
-
-&lt;p&gt;毎日、仕事やプライベートで開発をしたりしなかったりしながら、思ったことや感じたこと、考えたこと、知ったこと、覚えたことを書き連ねていきます。&lt;/p&gt;
-
-&lt;h3 id=&#34;about-me&#34;&gt;about me&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Twitter: &lt;a href=&#34;https://twitter.com/o0h_&#34;&gt;@o0h_&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Github: &lt;a href=&#34;http://github.com/o0h&#34;&gt;o0h&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
