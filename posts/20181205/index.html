@@ -43,6 +43,16 @@
   <aside></aside>
   <p>
 
+<h3 id="よもやま">よもやま</h3>
+
+<h4 id="cakeなやつ">cakeなやつ</h4>
+
+<ul>
+<li>Cakeの <code>Query</code> 、1回やったあとは結果がキャッシュされる。(当たり前っちゃあ、まぁ・・そうだよね〜という感じ)。<code>Query::$_results</code> の中に値があるか？を、 <code>all()</code> の最初の方でチェックしに行くのねーって思った。resultsをインスタンス内に保持するのとcacheって別なのか。</li>
+</ul>
+
+<h4 id="dockerなやつ">dockerなやつ</h4>
+
 <p>夜(AM)にDockerというかphp7-alpineを触っていて、何か思ってたんと違う〜〜っていう場面があり。理解が浅い。<br />
 docer-php-ext-install、apk add php7-hogehoge、apk add php-hogehoge、pecl install hogehoge・・・と。「CakeのAppはmod_php上で動くのだけど、composer installするとext不足で怒られる」という場面が多々。それさえできちゃえば、恐らく手元でちゃんと動かせるようになるのかな・・・・？というくらいの温度感。</p>
 
@@ -60,12 +70,6 @@ docer-php-ext-install、apk add php7-hogehoge、apk add php-hogehoge、pecl inst
 <li><code>--virtual</code>とか<code>build-dependencies</code> ってそういうことか</li>
 </ul></li>
 <li><a href="https://qiita.com/nmatayoshi/items/e7f34e1e220264131934">dockerのphp:7-fpm-alpineイメージでCakePHP3を動かす - Qiita</a></li>
-</ul>
-
-<h3 id="よもやま">よもやま</h3>
-
-<ul>
-<li>Cakeの <code>Query</code> 、1回やったあとは結果がキャッシュされる。(当たり前っちゃあ、まぁ・・そうだよね〜という感じ)。<code>Query::$_results</code> の中に値があるか？を、 <code>all()</code> の最初の方でチェックしに行くのねーって思った。resultsをインスタンス内に保持するのとcacheって別なのか。</li>
 </ul>
 
 <h3 id="便利ツール-ショートカット">便利ツール・ショートカット</h3>

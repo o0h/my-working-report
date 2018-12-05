@@ -19,6 +19,16 @@
       <guid>/posts/20181205/</guid>
       <description>
 
+&lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
+
+&lt;h4 id=&#34;cakeなやつ&#34;&gt;cakeなやつ&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cakeの &lt;code&gt;Query&lt;/code&gt; 、1回やったあとは結果がキャッシュされる。(当たり前っちゃあ、まぁ・・そうだよね〜という感じ)。&lt;code&gt;Query::$_results&lt;/code&gt; の中に値があるか？を、 &lt;code&gt;all()&lt;/code&gt; の最初の方でチェックしに行くのねーって思った。resultsをインスタンス内に保持するのとcacheって別なのか。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;dockerなやつ&#34;&gt;dockerなやつ&lt;/h4&gt;
+
 &lt;p&gt;夜(AM)にDockerというかphp7-alpineを触っていて、何か思ってたんと違う〜〜っていう場面があり。理解が浅い。&lt;br /&gt;
 docer-php-ext-install、apk add php7-hogehoge、apk add php-hogehoge、pecl install hogehoge・・・と。「CakeのAppはmod_php上で動くのだけど、composer installするとext不足で怒られる」という場面が多々。それさえできちゃえば、恐らく手元でちゃんと動かせるようになるのかな・・・・？というくらいの温度感。&lt;/p&gt;
 
@@ -36,12 +46,6 @@ docer-php-ext-install、apk add php7-hogehoge、apk add php-hogehoge、pecl inst
 &lt;li&gt;&lt;code&gt;--virtual&lt;/code&gt;とか&lt;code&gt;build-dependencies&lt;/code&gt; ってそういうことか&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://qiita.com/nmatayoshi/items/e7f34e1e220264131934&#34;&gt;dockerのphp:7-fpm-alpineイメージでCakePHP3を動かす - Qiita&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Cakeの &lt;code&gt;Query&lt;/code&gt; 、1回やったあとは結果がキャッシュされる。(当たり前っちゃあ、まぁ・・そうだよね〜という感じ)。&lt;code&gt;Query::$_results&lt;/code&gt; の中に値があるか？を、 &lt;code&gt;all()&lt;/code&gt; の最初の方でチェックしに行くのねーって思った。resultsをインスタンス内に保持するのとcacheって別なのか。&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;便利ツール-ショートカット&#34;&gt;便利ツール・ショートカット&lt;/h3&gt;
