@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>2018/12/05</title>
+	
+	<meta name="description" content="">
+	<meta name="image" content="">
+	
+	<meta itemprop="name" content="2018/12/05">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta name="og:title" content="2018/12/05">
+	<meta name="og:description" content="">
+	
+	<meta name="og:url" content="/posts/20181205/">
+	<meta name="og:site_name" content="2018/12/05">
+	<meta name="og:type" content="article">
+	
+	<meta name="article:tag" content="">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	
+	
+</head>
+
+<body>
+
+<header>
+	
+	<a href="/" style="float: left;color:#ff3b30;">まいにち書くぞ</a>
+	
+	&nbsp;&nbsp;<a href="/about/" style="color:#777;">About</a>
+	
+	<a href="/posts/index.xml" style="color:#777;float: right;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+</header>
+
+
+<div class="content">
+  <h1>2018/12/05</h1>
+  <aside></aside>
+  <p>
+
+<p>夜(AM)にDockerというかphp7-alpineを触っていて、何か思ってたんと違う〜〜っていう場面があり。理解が浅い。<br />
+docer-php-ext-install、apk add php7-hogehoge、apk add php-hogehoge、pecl install hogehoge・・・と。「CakeのAppはmod_php上で動くのだけど、composer installするとext不足で怒られる」という場面が多々。それさえできちゃえば、恐らく手元でちゃんと動かせるようになるのかな・・・・？というくらいの温度感。</p>
+
+<p>あと、今まで適当にゼロからのphpアプリケーションを作る！という時にはphp-alpine-fpmイメージを使ったことがあったものの。今回は会社の既存アプリケーションを試してみながら手を実際に動かしてみよう！であり、そのため「割とちゃんと使ってみよう」という目的。そうして行く中で、 <code>apk add --virtual</code> とか <code>apk add --no-cache</code> とか、なるほど確かにこれはめっちゃ軽量なイメージが作れそうだ・・・！と興奮していた。今までは、「元々のイメージサイズが小さい」とか「必要最低限のパッケージに絞り込んである」とか、それだけのイメージだった。小さい・速いは正義だと思うので、これはちゃんと使えるようにしたいな〜</p>
+
+<h3 id="気になった記事-読んだ記事など">気になった記事・読んだ記事など</h3>
+
+<ul>
+<li><a href="https://wiki.alpinelinux.org/wiki/Setting_Up_Apache_with_PHP">Setting Up Apache with PHP - Alpine Linux</a></li>
+<li><a href="http://blog.matchingood.com/entry/2017/03/09/202011">php7-session</a></li>
+<li><a href="https://unskilled.site/docker%E3%81%AE%E5%85%AC%E5%BC%8Fphp%E3%81%AEdockerfile%E3%82%92%E9%A0%91%E5%BC%B5%E3%81%A3%E3%81%A6%E8%AA%AD%E3%82%93%E3%81%A7%E7%90%86%E8%A7%A3%E3%81%97%E3%82%88%E3%81%86%E3%81%A8%E3%81%97%E3%81%A6/">Dockerの公式PHPのDockerfileを頑張って読んで理解しようとしてみた | Unskilled?</a></li>
+<li><a href="https://www.rainorshine.asia/2018/05/07/post2951.html">Alpineベースの公式PHPイメージにImagickをインストールする</a>
+
+<ul>
+<li><code>--virtual</code>とか<code>build-dependencies</code> ってそういうことか</li>
+</ul></li>
+<li><a href="https://qiita.com/nmatayoshi/items/e7f34e1e220264131934">dockerのphp:7-fpm-alpineイメージでCakePHP3を動かす - Qiita</a></li>
+</ul>
+
+<h3 id="よもやま">よもやま</h3>
+
+<ul>
+<li>Cakeの <code>Query</code> 、1回やったあとは結果がキャッシュされる。(当たり前っちゃあ、まぁ・・そうだよね〜という感じ)。<code>Query::$_results</code> の中に値があるか？を、 <code>all()</code> の最初の方でチェックしに行くのねーって思った。resultsをインスタンス内に保持するのとcacheって別なのか。</li>
+</ul>
+
+<h3 id="便利ツール-ショートカット">便利ツール・ショートカット</h3>
+
+<h3 id="公開したもの">公開したもの</h3>
+
+<h3 id="ひとこと">ひとこと</h3>
+
+<p>相変わらず〜だけど、まだCakeの割と基本的だったりチュートリアルに載っているような内容でも知らなかったり挙動を掴んでいないものが、チラホラあるなぁ。。</p>
+</p>
+</div>
+
+
+  <p>Written on Dec 5, 2018.</p>
+
+
+<footer>
+	<p>&copy; 2018 All rights reserved.</p>
+</footer>
+</body>
+</html>

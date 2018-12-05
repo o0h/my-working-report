@@ -6,10 +6,53 @@
     <description>Recent content on まいにち書くぞ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 04 Dec 2018 19:43:17 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 05 Dec 2018 00:39:46 +0900</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2018/12/05</title>
+      <link>/posts/20181205/</link>
+      <pubDate>Wed, 05 Dec 2018 00:39:46 +0900</pubDate>
+      
+      <guid>/posts/20181205/</guid>
+      <description>
+
+&lt;p&gt;夜(AM)にDockerというかphp7-alpineを触っていて、何か思ってたんと違う〜〜っていう場面があり。理解が浅い。&lt;br /&gt;
+docer-php-ext-install、apk add php7-hogehoge、apk add php-hogehoge、pecl install hogehoge・・・と。「CakeのAppはmod_php上で動くのだけど、composer installするとext不足で怒られる」という場面が多々。それさえできちゃえば、恐らく手元でちゃんと動かせるようになるのかな・・・・？というくらいの温度感。&lt;/p&gt;
+
+&lt;p&gt;あと、今まで適当にゼロからのphpアプリケーションを作る！という時にはphp-alpine-fpmイメージを使ったことがあったものの。今回は会社の既存アプリケーションを試してみながら手を実際に動かしてみよう！であり、そのため「割とちゃんと使ってみよう」という目的。そうして行く中で、 &lt;code&gt;apk add --virtual&lt;/code&gt; とか &lt;code&gt;apk add --no-cache&lt;/code&gt; とか、なるほど確かにこれはめっちゃ軽量なイメージが作れそうだ・・・！と興奮していた。今までは、「元々のイメージサイズが小さい」とか「必要最低限のパッケージに絞り込んである」とか、それだけのイメージだった。小さい・速いは正義だと思うので、これはちゃんと使えるようにしたいな〜&lt;/p&gt;
+
+&lt;h3 id=&#34;気になった記事-読んだ記事など&#34;&gt;気になった記事・読んだ記事など&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.alpinelinux.org/wiki/Setting_Up_Apache_with_PHP&#34;&gt;Setting Up Apache with PHP - Alpine Linux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.matchingood.com/entry/2017/03/09/202011&#34;&gt;php7-session&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://unskilled.site/docker%E3%81%AE%E5%85%AC%E5%BC%8Fphp%E3%81%AEdockerfile%E3%82%92%E9%A0%91%E5%BC%B5%E3%81%A3%E3%81%A6%E8%AA%AD%E3%82%93%E3%81%A7%E7%90%86%E8%A7%A3%E3%81%97%E3%82%88%E3%81%86%E3%81%A8%E3%81%97%E3%81%A6/&#34;&gt;Dockerの公式PHPのDockerfileを頑張って読んで理解しようとしてみた | Unskilled?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rainorshine.asia/2018/05/07/post2951.html&#34;&gt;Alpineベースの公式PHPイメージにImagickをインストールする&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;--virtual&lt;/code&gt;とか&lt;code&gt;build-dependencies&lt;/code&gt; ってそういうことか&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/nmatayoshi/items/e7f34e1e220264131934&#34;&gt;dockerのphp:7-fpm-alpineイメージでCakePHP3を動かす - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cakeの &lt;code&gt;Query&lt;/code&gt; 、1回やったあとは結果がキャッシュされる。(当たり前っちゃあ、まぁ・・そうだよね〜という感じ)。&lt;code&gt;Query::$_results&lt;/code&gt; の中に値があるか？を、 &lt;code&gt;all()&lt;/code&gt; の最初の方でチェックしに行くのねーって思った。resultsをインスタンス内に保持するのとcacheって別なのか。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;便利ツール-ショートカット&#34;&gt;便利ツール・ショートカット&lt;/h3&gt;
+
+&lt;h3 id=&#34;公開したもの&#34;&gt;公開したもの&lt;/h3&gt;
+
+&lt;h3 id=&#34;ひとこと&#34;&gt;ひとこと&lt;/h3&gt;
+
+&lt;p&gt;相変わらず〜だけど、まだCakeの割と基本的だったりチュートリアルに載っているような内容でも知らなかったり挙動を掴んでいないものが、チラホラあるなぁ。。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2018/12/04</title>
