@@ -23,9 +23,7 @@
 
 &lt;h4 id=&#34;cakeなやつ&#34;&gt;cakeなやつ&lt;/h4&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Cakeの &lt;code&gt;Query&lt;/code&gt; 、1回やったあとは結果がキャッシュされる。(当たり前っちゃあ、まぁ・・そうだよね〜という感じ)。&lt;code&gt;Query::$_results&lt;/code&gt; の中に値があるか？を、 &lt;code&gt;all()&lt;/code&gt; の最初の方でチェックしに行くのねーって思った。resultsをインスタンス内に保持するのとcacheって別なのか。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Cakeの &lt;code&gt;Query&lt;/code&gt; 、1回やったあとは結果がキャッシュされる。(当たり前っちゃあ、まぁ・・そうだよね〜という感じ)。&lt;code&gt;Query::$_results&lt;/code&gt; の中に値があるか？を、 &lt;code&gt;all()&lt;/code&gt; の最初の方でチェックしに行くのねーって思った。resultsをインスタンス内に保持するのとcacheって別なのか。&lt;/p&gt;
 
 &lt;h4 id=&#34;dockerなやつ&#34;&gt;dockerなやつ&lt;/h4&gt;
 
