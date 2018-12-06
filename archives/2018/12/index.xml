@@ -44,7 +44,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;なるほど。原則として「速さより見易さ」で良いと思うんだけど、このくらいなら意識して良さそう。mergeしたいときしかarray_merge使わないし、普段からappend/pushしたいならそういう表現をとっているはずだけど。&lt;/li&gt;
-&lt;li&gt;とわいえ、配列の結合($ar1 + $ar2)だったり、array_pushと$ar[] = $aだったり、似たような書き方多くて、明確に「こっちの書き方でないとアカン！！」っていうこともない場合、どっちにしたものかは悩ましいぞPHP！！って思う&lt;/li&gt;
+&lt;li&gt;とはいえ、配列の結合($ar1 + $ar2)だったり、array_pushと$ar[] = $aだったり、似たような書き方多くて、明確に「こっちの書き方でないとアカン！！」っていうこともない場合、どっちにしたものかは悩ましいぞPHP！！って思う&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://reactjs.org/blog/2018/11/27/react-16-roadmap.html#react-166-shipped-the-one-with-suspense-for-code-splitting&#34;&gt;React 16.x Roadmap – React Blog&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
