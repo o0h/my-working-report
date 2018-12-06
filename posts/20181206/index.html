@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>2018/12/06</title>
+	
+	<meta name="description" content="">
+	<meta name="image" content="">
+	
+	<meta itemprop="name" content="2018/12/06">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta name="og:title" content="2018/12/06">
+	<meta name="og:description" content="">
+	
+	<meta name="og:url" content="/posts/20181206/">
+	<meta name="og:site_name" content="2018/12/06">
+	<meta name="og:type" content="article">
+	
+	<meta name="article:tag" content="">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	
+	
+</head>
+
+<body>
+
+<header>
+	
+	<a href="/" style="float: left;color:#ff3b30;">まいにち書くぞ</a>
+	
+	&nbsp;&nbsp;<a href="/about/" style="color:#777;">About</a>
+	
+	<a href="/posts/index.xml" style="color:#777;float: right;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+</header>
+
+
+<div class="content">
+  <h1>2018/12/06</h1>
+  <aside></aside>
+  <p>
+
+<h3 id="よもやま">よもやま</h3>
+
+<h4 id="reactのやつ">Reactのやつ</h4>
+
+<p>隣のエンジニアにReact.Suspense/React.lazyの話を聞いた。機能的には「むしろ今までなかったのか〜」って思う部分だけど、今の時代だと「明らかに超簡単に描画の遅延処理ができるぜ！！」みたいなのが実現できそうで、すっげぇ。</p>
+
+<h4 id="style-fix">style fix</h4>
+
+<p>PHPの自動整形ツール、php-cs-fixterがちょっと気になっていて触ってみた。phpcbfよりも、ちょっと強めに動ける感じかな？<br />
+フロントエンドのコーディングに関してprettierを使ってみると、体験として「すごく良い意味で縛られる」という感じがあったの、もしあれをPHPでもできたら？とは思う。ただ、もしphpcsの既存ルールとぶつかっていったら地獄や・・・という恐怖もあって、使っていない感じ。</p>
+
+<p>このあたり、もし望めるなら「自分で拡張できる柔軟性」なのだ。検出ルールと整形ルールを書けたら・・・？と。ということで、DSLっ<a href="https://github.com/laravel/laravel/pull/4496ぽい記法やAPI自体の学習コストがゼロになるとは期待していないが、「最初に頑張ったらガンガン好きにできる！」みたいなことになれば、すっごく良さそうだ・・・・！ってことで、興味の対象に。">https://github.com/laravel/laravel/pull/4496ぽい記法やAPI自体の学習コストがゼロになるとは期待していないが、「最初に頑張ったらガンガン好きにできる！」みたいなことになれば、すっごく良さそうだ・・・・！ってことで、興味の対象に。</a></p>
+
+<p>関連して。<br />
+<a href="https://github.com/laravel/laravel/pull/4496">Add PHPCS config file by skyrpex · Pull Request #4496 · laravel/laravel</a></p>
+
+<p>Laravelって、phpcsのルールセットをおいてないのか・・・驚いた。</p>
+
+<h3 id="気になった記事-読んだ記事など">気になった記事・読んだ記事など</h3>
+
+<ul>
+<li><a href="https://qiita.com/natsuyoshi_jr/items/23acf2466942af4ab8c0">[PHP]安定したシステム運用を目指して取り組んだこと - Qiita</a>
+
+<ul>
+<li>なるほど。原則として「速さより見易さ」で良いと思うんだけど、このくらいなら意識して良さそう。mergeしたいときしかarray_merge使わないし、普段からappend/pushしたいならそういう表現をとっているはずだけど。</li>
+<li>とわいえ、配列の結合($ar1 + $ar2)だったり、array_pushと$ar[] = $aだったり、似たような書き方多くて、明確に「こっちの書き方でないとアカン！！」っていうこともない場合、どっちにしたものかは悩ましいぞPHP！！って思う</li>
+</ul></li>
+<li><a href="https://reactjs.org/blog/2018/11/27/react-16-roadmap.html#react-166-shipped-the-one-with-suspense-for-code-splitting">React 16.x Roadmap – React Blog</a></li>
+</ul>
+
+<h3 id="便利ツール-ショートカット">便利ツール・ショートカット</h3>
+
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpcpd">sebastianbergmann/phpcpd: Copy/Paste Detector (CPD) for PHP code.</a></li>
+</ul>
+
+<h3 id="公開したもの">公開したもの</h3>
+
+<h3 id="ひとこと">ひとこと</h3>
+
+<p>今朝は少し早めに活動を開始できたのだけど、昨夜の夕飯を抜いたから！な気がする。毎日そうすればいいんだろうな・・・</p>
+</p>
+</div>
+
+
+  <p>Written on Dec 6, 2018.</p>
+
+
+<footer>
+	<p>&copy; 2018 All rights reserved.</p>
+</footer>
+</body>
+</html>
