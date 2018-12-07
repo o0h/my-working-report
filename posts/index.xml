@@ -6,10 +6,111 @@
     <description>Recent content in Posts on まいにち書くぞ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 06 Dec 2018 08:24:24 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 07 Dec 2018 00:15:19 +0900</lastBuildDate>
     
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2018/12/07</title>
+      <link>/posts/20181207/</link>
+      <pubDate>Fri, 07 Dec 2018 00:15:19 +0900</pubDate>
+      
+      <guid>/posts/20181207/</guid>
+      <description>
+
+&lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
+
+&lt;h4 id=&#34;php7-3&#34;&gt;PHP7.3 🎉&lt;/h4&gt;
+
+&lt;p&gt;GA!GA!!
+&lt;a href=&#34;http://php.net/index.php#id2018-12-06-5&#34;&gt;http://php.net/index.php#id2018-12-06-5&lt;/a&gt;
+&lt;img src=&#34;/images/posts/2018-12-07-12-05-09.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;そして私はDockerの公式イメージを待ち続け・・・&lt;br /&gt;
+&lt;a href=&#34;https://github.com/docker-library/php/commit/a280ab8e8790052338ce59a1fee739df8f831f16&#34;&gt;Update to 7.3.0 (GA) · docker-library/php@a280ab8&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;dockerのやつ&#34;&gt;Dockerのやつ&lt;/h4&gt;
+
+&lt;p&gt;phpのalpine使おうとしていて、「&lt;code&gt;apk add php7-redis&lt;/code&gt;と&lt;code&gt;pecl install redis&lt;/code&gt;ってどう違うの？あと、apkに&lt;code&gt;php-mbstring&lt;/code&gt;と&lt;code&gt;php7-pdo_mysql&lt;/code&gt;みたいに、prefix違うのがあるな？」ていうのを謎に思っていたのだけど。&lt;br /&gt;
+これ、「コアモジュールが&lt;code&gt;php-*&lt;/code&gt;で拡張モジュール/peclが&lt;code&gt;php7-*&lt;/code&gt;かな？」という発想が、脳みそに降りてきた。&lt;/p&gt;
+
+&lt;p&gt;例えば、JSONを例に取ると&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;bash-4.4# apk info php-json
+php7-json-7.2.10-r0 description:
+PHP7 extension: JSON
+
+php7-json-7.2.10-r0 webpage:
+https://secure.php.net
+
+php7-json-7.2.10-r0 installed size:
+77824
+
+bash-4.4# apk info php7-json
+php7-json-7.2.10-r0 description:
+PHP7 extension: JSON
+
+php7-json-7.2.10-r0 webpage:
+https://secure.php.net
+
+php7-json-7.2.10-r0 installed size:
+77824
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;aliasとして？ &lt;code&gt;php(7)?-json&lt;/code&gt;で行けるんだけど、これは&lt;code&gt;secure.php.net&lt;/code&gt;由来になっている。&lt;br /&gt;
+一方で、&lt;code&gt;php7-redis&lt;/code&gt;は&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;bash-4.4# apk info php7-redis
+php7-redis-4.0.2-r0 description:
+PHP7 extension for interfacing with Redis
+
+php7-redis-4.0.2-r0 webpage:
+https://pecl.php.net/package/redis
+
+php7-redis-4.0.2-r0 installed size:
+471040
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;pecl。で、&lt;code&gt;php-redis&lt;/code&gt;は・・？&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;bash-4.4# apk info php-redis
+bash-4.4#
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;no hit!&lt;/p&gt;
+
+&lt;p&gt;なるほどね〜&lt;br /&gt;
+ってことは、&lt;code&gt;php-*&lt;/code&gt;で使える方は &lt;code&gt;docker-php-ext-install&lt;/code&gt; でも大体いける？&lt;/p&gt;
+
+&lt;h3 id=&#34;github-actionsをした1日&#34;&gt;Github Actionsをした1日&lt;/h3&gt;
+
+&lt;p&gt;めっちゃ楽しかった！
+&lt;a href=&#34;http://daisuki.nichiyoubi.land/entry/2018/12/07/202047&#34;&gt;http://daisuki.nichiyoubi.land/entry/2018/12/07/202047&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;cakephp-3-7&#34;&gt;CakePHP 3.7&lt;/h3&gt;
+
+&lt;p&gt;今週末リリース予定らしい&lt;/p&gt;
+
+&lt;h3 id=&#34;気になった記事-読んだ記事など&#34;&gt;気になった記事・読んだ記事など&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rss.p.theconnman.com/#?user=TheConnMan&amp;amp;repo=docker-hub-rss&#34;&gt;Docker Hub RSS&lt;/a&gt; (via &lt;a href=&#34;https://www.reddit.com/r/docker/comments/6cbehq/rss_feed_for_docker_hub_images/&#34;&gt;reddit&lt;/a&gt;)
+
+&lt;ul&gt;
+&lt;li&gt;Docker Hubのレポジトリの更新情報をRSSで流してくれる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;便利ツール-ショートカット&#34;&gt;便利ツール・ショートカット&lt;/h3&gt;
+
+&lt;h3 id=&#34;公開したもの&#34;&gt;公開したもの&lt;/h3&gt;
+
+&lt;h3 id=&#34;ひとこと&#34;&gt;ひとこと&lt;/h3&gt;
+
+&lt;p&gt;酒を呑むぞ！！という気持ちで1日をすごした。なにげに2週間ぶり？&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2018/12/06</title>

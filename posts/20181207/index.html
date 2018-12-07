@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>2018/12/07</title>
+	
+	<meta name="description" content="">
+	<meta name="image" content="">
+	
+	<meta itemprop="name" content="2018/12/07">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta name="og:title" content="2018/12/07">
+	<meta name="og:description" content="">
+	
+	<meta name="og:url" content="/posts/20181207/">
+	<meta name="og:site_name" content="2018/12/07">
+	<meta name="og:type" content="article">
+	
+	<meta name="article:tag" content="">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	
+	
+</head>
+
+<body>
+
+<header>
+	
+	<a href="/" style="float: left;color:#ff3b30;">まいにち書くぞ</a>
+	
+	&nbsp;&nbsp;<a href="/about/" style="color:#777;">About</a>
+	
+	<a href="/posts/index.xml" style="color:#777;float: right;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+</header>
+
+
+<div class="content">
+  <h1>2018/12/07</h1>
+  <aside></aside>
+  <p>
+
+<h3 id="よもやま">よもやま</h3>
+
+<h4 id="php7-3">PHP7.3 🎉</h4>
+
+<p>GA!GA!!
+<a href="http://php.net/index.php#id2018-12-06-5">http://php.net/index.php#id2018-12-06-5</a>
+<img src="/images/posts/2018-12-07-12-05-09.png" alt="" /></p>
+
+<p>そして私はDockerの公式イメージを待ち続け・・・<br />
+<a href="https://github.com/docker-library/php/commit/a280ab8e8790052338ce59a1fee739df8f831f16">Update to 7.3.0 (GA) · docker-library/php@a280ab8</a></p>
+
+<h4 id="dockerのやつ">Dockerのやつ</h4>
+
+<p>phpのalpine使おうとしていて、「<code>apk add php7-redis</code>と<code>pecl install redis</code>ってどう違うの？あと、apkに<code>php-mbstring</code>と<code>php7-pdo_mysql</code>みたいに、prefix違うのがあるな？」ていうのを謎に思っていたのだけど。<br />
+これ、「コアモジュールが<code>php-*</code>で拡張モジュール/peclが<code>php7-*</code>かな？」という発想が、脳みそに降りてきた。</p>
+
+<p>例えば、JSONを例に取ると</p>
+
+<pre><code>bash-4.4# apk info php-json
+php7-json-7.2.10-r0 description:
+PHP7 extension: JSON
+
+php7-json-7.2.10-r0 webpage:
+https://secure.php.net
+
+php7-json-7.2.10-r0 installed size:
+77824
+
+bash-4.4# apk info php7-json
+php7-json-7.2.10-r0 description:
+PHP7 extension: JSON
+
+php7-json-7.2.10-r0 webpage:
+https://secure.php.net
+
+php7-json-7.2.10-r0 installed size:
+77824
+</code></pre>
+
+<p>aliasとして？ <code>php(7)?-json</code>で行けるんだけど、これは<code>secure.php.net</code>由来になっている。<br />
+一方で、<code>php7-redis</code>は</p>
+
+<pre><code>bash-4.4# apk info php7-redis
+php7-redis-4.0.2-r0 description:
+PHP7 extension for interfacing with Redis
+
+php7-redis-4.0.2-r0 webpage:
+https://pecl.php.net/package/redis
+
+php7-redis-4.0.2-r0 installed size:
+471040
+</code></pre>
+
+<p>pecl。で、<code>php-redis</code>は・・？</p>
+
+<pre><code>bash-4.4# apk info php-redis
+bash-4.4#
+</code></pre>
+
+<p>no hit!</p>
+
+<p>なるほどね〜<br />
+ってことは、<code>php-*</code>で使える方は <code>docker-php-ext-install</code> でも大体いける？</p>
+
+<h3 id="github-actionsをした1日">Github Actionsをした1日</h3>
+
+<p>めっちゃ楽しかった！
+<a href="http://daisuki.nichiyoubi.land/entry/2018/12/07/202047">http://daisuki.nichiyoubi.land/entry/2018/12/07/202047</a></p>
+
+<h3 id="cakephp-3-7">CakePHP 3.7</h3>
+
+<p>今週末リリース予定らしい</p>
+
+<h3 id="気になった記事-読んだ記事など">気になった記事・読んだ記事など</h3>
+
+<ul>
+<li><a href="https://rss.p.theconnman.com/#?user=TheConnMan&amp;repo=docker-hub-rss">Docker Hub RSS</a> (via <a href="https://www.reddit.com/r/docker/comments/6cbehq/rss_feed_for_docker_hub_images/">reddit</a>)
+
+<ul>
+<li>Docker Hubのレポジトリの更新情報をRSSで流してくれる</li>
+</ul></li>
+</ul>
+
+<h3 id="便利ツール-ショートカット">便利ツール・ショートカット</h3>
+
+<h3 id="公開したもの">公開したもの</h3>
+
+<h3 id="ひとこと">ひとこと</h3>
+
+<p>酒を呑むぞ！！という気持ちで1日をすごした。なにげに2週間ぶり？</p>
+</p>
+</div>
+
+
+  <p>Written on Dec 7, 2018.</p>
+
+
+<footer>
+	<p>&copy; 2018 All rights reserved.</p>
+</footer>
+</body>
+</html>
