@@ -6,10 +6,90 @@
     <description>Recent content on まいにち書くぞ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 07 Dec 2018 00:15:19 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 08 Dec 2018 11:40:04 +0900</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2018/12/08</title>
+      <link>/posts/20181208/</link>
+      <pubDate>Sat, 08 Dec 2018 11:40:04 +0900</pubDate>
+      
+      <guid>/posts/20181208/</guid>
+      <description>
+
+&lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
+
+&lt;h4 id=&#34;php-annotated-monthly-december-2018&#34;&gt;PHP Annotated Monthly – December 2018&lt;/h4&gt;
+
+&lt;p&gt;今月号が届きました。
+&lt;a href=&#34;https://blog.jetbrains.com/phpstorm/2018/12/php-annotated-monthly-december-2018/&#34;&gt;PHP Annotated Monthly – December 2018 | PhpStorm Blog&lt;/a&gt;
+やはりPHP7.3・・・さっくりと新機能が紹介されているのが嬉しいですね。個人的に気になったもの&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;json_encode/json_decodeの「例外投げる」オプション
+
+&lt;ul&gt;
+&lt;li&gt;うれしい！&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;list()の参照渡し
+
+&lt;ul&gt;
+&lt;li&gt;参照渡しは使い方を間違えなければ便利と思っている派、ただし「使い方を間違えないようにする」のと同時に「使うべき明らかなメリットを示す」のが難しい・・なくても済む・・・とも感じられることのほうが圧倒的に多いので、基本的に会社とか他人が一緒に触るコードだと書かない。ので、これも「入ったんだ」とは思うけど、使うことあるかな？&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ftrailing comma in functions calls
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hoge($a, $b, $c,)&lt;/code&gt; みたいなことをしても嬉しい&lt;/li&gt;
+&lt;li&gt;地味に嬉しいw&lt;/li&gt;
+&lt;li&gt;(が、これはどうして入ったんだろう・・？&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;パフォーマンスが毎回上がり続けるの？(歓喜)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;気になった記事-読んだ記事など&#34;&gt;気になった記事・読んだ記事など&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/okuramasafumi/er-ren-timuniokeruhatukuentokai-fa-falsexiao-lu-hua-woqiu-mete&#34;&gt;二人チームにおけるバックエンド開発の効率化を求めて - Speaker Deck&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;業務はちょっと分野が違う人と2人位でやるのが楽しいよなーって個人的な感覚&lt;/li&gt;
+&lt;li&gt;ただ、確かに「レビュー投げまくってごめんなさい・・」も「レビュー返せてなくてごめんなさい・・・・」も体験したので、アレは何か世界を呪いたくなる&lt;/li&gt;
+&lt;li&gt;ので、こういう「健全に本質的な事にフォーカスしていくために、やれること(仕組み・仕掛け)は労を惜しまず入れよう！」って当時の自分にも欲しかった観点&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/Maki-Daisuke/items/80cbc26ca43cca3de4e4&#34;&gt;「例外」がないからGo言語はイケてないとかって言ってるヤツが本当にイケてない件 - Qiita&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;煽りタイトルwと思ったけど、内容は愛が深いように感じた&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/stomk/7nian-jian-kai-fa-wosok-kerusabisuwozhi-eru-fu-zhai-fan-ji-ri-falsequ-rizu-mi-18fd1bc1-2d44-4c18-bf3f-63cd65600af1&#34;&gt;7年間開発を続けるサービスを支える 負債返済日の取り組み - Speaker Deck&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tech.mercari.com/entry/2018/12/08/000000&#34;&gt;2018年のPHPとメルカリ - Mercari Engineering Blog&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;PHPへの寄せ書きみたいになってて、「PHP・・お前、消えるのか？」っていう気持ちにすらなった。寂しい。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;便利ツール-ショートカット&#34;&gt;便利ツール・ショートカット&lt;/h3&gt;
+
+&lt;h3 id=&#34;公開したもの&#34;&gt;公開したもの&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/o0h/items/01e83f0952b8c186584f&#34;&gt;CakePHP3の「Query」と仲良くなる記事 / あるいは変なクエリの書き方 - Qiita&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;書きました&lt;/li&gt;
+&lt;li&gt;もっと面白く書きたかった、舐めてたな・・・ :cry:&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ひとこと&#34;&gt;ひとこと&lt;/h3&gt;
+
+&lt;p&gt;おやすみやでぇす&lt;br /&gt;
+明日は(業務じゃないけど)一緒に取り組んでいるプロジェクトで追い込まれた人たちが集い、会社で気合を入れる日です&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2018/12/07</title>
