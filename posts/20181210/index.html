@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>2018/12/10</title>
+	
+	<meta name="description" content="">
+	<meta name="image" content="">
+	
+	<meta itemprop="name" content="2018/12/10">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta name="og:title" content="2018/12/10">
+	<meta name="og:description" content="">
+	
+	<meta name="og:url" content="/posts/20181210/">
+	<meta name="og:site_name" content="2018/12/10">
+	<meta name="og:type" content="article">
+	
+	<meta name="article:tag" content="">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	
+	
+</head>
+
+<body>
+
+<header>
+	
+	<a href="/" style="float: left;color:#ff3b30;">まいにち書くぞ</a>
+	
+	&nbsp;&nbsp;<a href="/about/" style="color:#777;">About</a>
+	
+	<a href="/posts/index.xml" style="color:#777;float: right;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+</header>
+
+
+<div class="content">
+  <h1>2018/12/10</h1>
+  <aside></aside>
+  <p>
+
+<h3 id="よもやま">よもやま</h3>
+
+<h4 id="adventな週末">Adventな週末</h4>
+
+<p>毎日やるやつと、(そういう事するぞ！って決める以前から枠をとっていた)cakeのカレンダーと会社のカレンダーが1本ずつ。合計4本のエントリーが課される結果になり、ひぃ〜〜って言ってた週末でした。</p>
+
+<ul>
+<li><a href="https://qiita.com/o0h/items/01e83f0952b8c186584f">CakePHP3の「Query」と仲良くなる記事 / あるいは変なクエリの書き方 - Qiita</a></li>
+<li><a href="https://cake.nichiyoubi.land/posts/27-cakephp-dto/">dereuromark/cakephp-dtoに触ってみる</a></li>
+<li><a href="http://tech.connehito.com/entry/travis-with-docker">Travis上でDockerを利用した継続的インテグレーションを実現する with レイヤーキャッシュ - コネヒト開発者ブログ</a></li>
+<li><a href="https://cake.nichiyoubi.land/posts/28-cakephp-3_7/">CakePHP 3.7の個人的な見どころ</a></li>
+</ul>
+
+<p>まぁ、いちおう書けた(かな？)・・<br />
+これプラスで会社のやつに書きかけてボツったネタにも時間を使ったから、体感的に4.5本書いてる。<br />
+ブログの連続更新に慣れてないから大変だった〜</p>
+
+<h4 id="cake3-7">Cake3.7</h4>
+
+<p>予想はしていたけど、面倒くさいのがIntegrationTestCase廃止の周りか。</p>
+
+<ul>
+<li>IntegrationTestTrait::setUp()を呼び出す必要がある
+
+<ul>
+<li>これまでみたいに <code>parent::setUp()</code> でやりにくい</li>
+<li>methodにaliasを当ててそっちを使うよ(traitの内部で親のsetUp()は呼んでくれている)</li>
+</ul></li>
+<li>fixturesの利用宣言で <code>snake_case</code> でなく <code>CamelCase</code> で行こうぜ！！という修正が入ってる。追えてなかった。これは何か使い捨てのシェル書いちゃった方が早いかもなーInflectorクラス使ったら一瞬だって感じすらした、php-fixerとかってこういうことできるのかな？
+
+<ul>
+<li>「ある変数名の中身の配列」みたいな変態っぽい縛りできるんだろか</li>
+</ul></li>
+</ul>
+
+<p><img src="/images/posts/2018-12-10-15-57-50.png" alt="" /></p>
+
+<h3 id="気になった記事-読んだ記事など">気になった記事・読んだ記事など</h3>
+
+<ul>
+<li><a href="https://ja.wikiquote.org/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8">Wikiquote</a>
+
+<ul>
+<li>初めて知った。べんり</li>
+</ul></li>
+<li><a href="https://papix.hatenablog.com/entry/2018/12/09/233231">｢手順書｣のススメ - Masteries</a></li>
+</ul>
+
+<h3 id="便利ツール-ショートカット">便利ツール・ショートカット</h3>
+
+<h3 id="公開したもの">公開したもの</h3>
+
+<h3 id="ひとこと">ひとこと</h3>
+
+<p>CakePHPの質問をSlackで投げてお世話になることがしばしばあるのだけど(#japaneseか#support)、メンバーの人が親切でレスも早いのでとてもありがたい。嬉しい気持ちになる</p>
+</p>
+</div>
+
+
+  <p>Written on Dec 10, 2018.</p>
+
+
+<footer>
+	<p>&copy; 2018 All rights reserved.</p>
+</footer>
+</body>
+</html>

@@ -6,10 +6,76 @@
     <description>Recent content on まいにち書くぞ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 09 Dec 2018 02:32:17 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 10 Dec 2018 11:40:31 +0900</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2018/12/10</title>
+      <link>/posts/20181210/</link>
+      <pubDate>Mon, 10 Dec 2018 11:40:31 +0900</pubDate>
+      
+      <guid>/posts/20181210/</guid>
+      <description>
+
+&lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
+
+&lt;h4 id=&#34;adventな週末&#34;&gt;Adventな週末&lt;/h4&gt;
+
+&lt;p&gt;毎日やるやつと、(そういう事するぞ！って決める以前から枠をとっていた)cakeのカレンダーと会社のカレンダーが1本ずつ。合計4本のエントリーが課される結果になり、ひぃ〜〜って言ってた週末でした。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/o0h/items/01e83f0952b8c186584f&#34;&gt;CakePHP3の「Query」と仲良くなる記事 / あるいは変なクエリの書き方 - Qiita&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cake.nichiyoubi.land/posts/27-cakephp-dto/&#34;&gt;dereuromark/cakephp-dtoに触ってみる&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tech.connehito.com/entry/travis-with-docker&#34;&gt;Travis上でDockerを利用した継続的インテグレーションを実現する with レイヤーキャッシュ - コネヒト開発者ブログ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cake.nichiyoubi.land/posts/28-cakephp-3_7/&#34;&gt;CakePHP 3.7の個人的な見どころ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;まぁ、いちおう書けた(かな？)・・&lt;br /&gt;
+これプラスで会社のやつに書きかけてボツったネタにも時間を使ったから、体感的に4.5本書いてる。&lt;br /&gt;
+ブログの連続更新に慣れてないから大変だった〜&lt;/p&gt;
+
+&lt;h4 id=&#34;cake3-7&#34;&gt;Cake3.7&lt;/h4&gt;
+
+&lt;p&gt;予想はしていたけど、面倒くさいのがIntegrationTestCase廃止の周りか。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;IntegrationTestTrait::setUp()を呼び出す必要がある
+
+&lt;ul&gt;
+&lt;li&gt;これまでみたいに &lt;code&gt;parent::setUp()&lt;/code&gt; でやりにくい&lt;/li&gt;
+&lt;li&gt;methodにaliasを当ててそっちを使うよ(traitの内部で親のsetUp()は呼んでくれている)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;fixturesの利用宣言で &lt;code&gt;snake_case&lt;/code&gt; でなく &lt;code&gt;CamelCase&lt;/code&gt; で行こうぜ！！という修正が入ってる。追えてなかった。これは何か使い捨てのシェル書いちゃった方が早いかもなーInflectorクラス使ったら一瞬だって感じすらした、php-fixerとかってこういうことできるのかな？
+
+&lt;ul&gt;
+&lt;li&gt;「ある変数名の中身の配列」みたいな変態っぽい縛りできるんだろか&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/posts/2018-12-10-15-57-50.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;気になった記事-読んだ記事など&#34;&gt;気になった記事・読んだ記事など&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ja.wikiquote.org/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8&#34;&gt;Wikiquote&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;初めて知った。べんり&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://papix.hatenablog.com/entry/2018/12/09/233231&#34;&gt;｢手順書｣のススメ - Masteries&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;便利ツール-ショートカット&#34;&gt;便利ツール・ショートカット&lt;/h3&gt;
+
+&lt;h3 id=&#34;公開したもの&#34;&gt;公開したもの&lt;/h3&gt;
+
+&lt;h3 id=&#34;ひとこと&#34;&gt;ひとこと&lt;/h3&gt;
+
+&lt;p&gt;CakePHPの質問をSlackで投げてお世話になることがしばしばあるのだけど(#japaneseか#support)、メンバーの人が親切でレスも早いのでとてもありがたい。嬉しい気持ちになる&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2018/12/09</title>
