@@ -6,10 +6,44 @@
     <description>Recent content on まいにち書くぞ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 11 Dec 2018 12:23:58 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 12 Dec 2018 11:28:47 +0900</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2018/12/12</title>
+      <link>/posts/20181212/</link>
+      <pubDate>Wed, 12 Dec 2018 11:28:47 +0900</pubDate>
+      
+      <guid>/posts/20181212/</guid>
+      <description>
+
+&lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
+
+&lt;h4 id=&#34;vs-codeなやつ&#34;&gt;VS codeなやつ&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ブラウザとの連携をしてステップ実行、ができるようになった！！！めっちゃ嬉しいやつ・・・！！！&lt;/li&gt;
+&lt;li&gt;「絶対にあるよな・・？」って思っていた「IDEの中でターミナル開く」のやつ、偶然見つけたw これがすごい欲しかった。使うウィンドウ1個減らせる。yarn処理は、JS書くエディタと一緒に表示しておくのが楽しそうだな〜&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;気になった記事-読んだ記事など&#34;&gt;気になった記事・読んだ記事など&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ics.media/entry/11356&#34;&gt;Visual Studio CodeでのJSのデバッグ方法(2018年版) - ICS MEDIA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.karelie.net/vscode-notes/&#34;&gt;VSCode(Visual Studio Code)をメモ帳として使える拡張機能「VSNotes」が便利そう | カレリエ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;便利ツール-ショートカット&#34;&gt;便利ツール・ショートカット&lt;/h3&gt;
+
+&lt;h3 id=&#34;公開したもの&#34;&gt;公開したもの&lt;/h3&gt;
+
+&lt;h3 id=&#34;ひとこと&#34;&gt;ひとこと&lt;/h3&gt;
+
+&lt;p&gt;社内ツールだけど、本番にCake3.7だした🎉&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2018/12/11</title>
