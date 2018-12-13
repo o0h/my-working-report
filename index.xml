@@ -2,21 +2,83 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>まいにち書くぞ</title>
-    <link>/</link>
+    <link>https://mainichi.nichiyoubi.land/</link>
     <description>Recent content on まいにち書くぞ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 12 Dec 2018 11:28:47 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 13 Dec 2018 11:27:06 +0900</lastBuildDate>
     
-        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://mainichi.nichiyoubi.land/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>2018/12/13</title>
+      <link>https://mainichi.nichiyoubi.land/posts/20181213/</link>
+      <pubDate>Thu, 13 Dec 2018 11:27:06 +0900</pubDate>
+      
+      <guid>https://mainichi.nichiyoubi.land/posts/20181213/</guid>
+      <description>
+
+&lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
+
+&lt;h4 id=&#34;plantumlのやつ&#34;&gt;PlantUMLのやつ&lt;/h4&gt;
+
+&lt;p&gt;今日も今日とて。みんな大好きPlantUML！をやっていました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://plantuml.com/sequence-diagram&#34;&gt;シーケンス図の構文と機能&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://plantuml.com/activity-diagram-beta&#34;&gt;新しいアクティビティ図のベータ版の構文と機能&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;シーケンス図とアクティビティ図を使ったよ☺&lt;/p&gt;
+
+&lt;p&gt;いわゆる「ドキュメントづくり」って、そんなに大きくないチームやプロジェクトなら別にいらなくね？派であり楽観派なのですが。(なぜならコードがそこに有るんでしょ？)&lt;br /&gt;
+いつ「作成するべきか」っていうと、何かしらやっていて「あったほうがいいな」って思うタイミングが来るものと思っていて。心の声に従いながら作成をし始めるのが良いのでないかなーくらいの気持ち。&lt;/p&gt;
+
+&lt;p&gt;例えば、再実装や実装の移転をする際に、「最初に作った人を含めて、そのコードを読み解く3人目のメンバーが現れたとき」など。1人目は実装した本人、2人目はその時に本人から伝承をされつつレビューしたりで関わっている人。「2人目から3人目」の時が1つのタイミングかな、と思うのが「実装者が直接関わらなくなる」というタイミングだから。この時点で、「誰が触っても安心できる」という再現性を固めにいこう〜みたいな。&lt;/p&gt;
+
+&lt;p&gt;私が今やっているのは、「過去実装アプリケーションの移行」ということで、まぁ古い方のアプリケーションも直接読んだし触ったしで「十分に知っている」状態ではあるのだけど、いかんせん「久しぶりに触ったら凄い思い出しながらの作業になった」のと「リファクタ可能な箇所(要件的に、実装的に)を明確に洗い出したい」という2つのモチベーションにて。&lt;/p&gt;
+
+&lt;p&gt;ドキュメント化・・・というか「実際のコードと別の実体での説明」は、メンテしていける？というのが1番の問題ではあるよなー今後どうなっていくやら・・&lt;/p&gt;
+
+&lt;h4 id=&#34;trait置き場&#34;&gt;Trait置き場&lt;/h4&gt;
+
+&lt;p&gt;Traitをディレクトリ掘って隔離したいときって、「Trait」ではなく複数形で「Traits」になるのがベターなのかな？&lt;br /&gt;
+&lt;img src=&#34;https://mainichi.nichiyoubi.land/images/posts/2018-12-13-18-04-22.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;気になった記事-読んだ記事など&#34;&gt;気になった記事・読んだ記事など&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://note.mu/mtsuchiya/n/n7ed034716688&#34;&gt;ビジネスインフラエンジニアの好きなところ｜土屋 雅章｜note&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dev.classmethod.jp/testing/10_errors_about_unit_testing/&#34;&gt;ユニットテストにまつわる10の勘違い ｜ DevelopersIO&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;こういうのはザッと読むと「ははは、わかってるよ当然さ！」って気持ちになるけど、定期的に自分の胸に手を当てて考え直したい系だと思う&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://fj.hatenablog.jp/entry/2016/01/29/204836&#34;&gt;ユニットテストの綺麗な書き方 - 超ウィザード級ハッカーのたのしみ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://soudai.hatenablog.com/entry/2018/05/01/204442&#34;&gt;ユーザ情報を保存する時のテーブル設計 - そーだいなるらくがき帳&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;この「テーブル移す」は、(この記事の内容について〜ではなくて)パターンや手法として名前ってなんか付いてるのかな？っていう感じで情報探していたら。久しぶりに見たなっておもって改めて読んだ。。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;便利ツール-ショートカット&#34;&gt;便利ツール・ショートカット&lt;/h3&gt;
+
+&lt;h3 id=&#34;公開したもの&#34;&gt;公開したもの&lt;/h3&gt;
+
+&lt;h3 id=&#34;ひとこと&#34;&gt;ひとこと&lt;/h3&gt;
+
+&lt;p&gt;明日は夜に予定が入ったので、Adevntは朝！！！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>2018/12/12</title>
-      <link>/posts/20181212/</link>
+      <link>https://mainichi.nichiyoubi.land/posts/20181212/</link>
       <pubDate>Wed, 12 Dec 2018 11:28:47 +0900</pubDate>
       
-      <guid>/posts/20181212/</guid>
+      <guid>https://mainichi.nichiyoubi.land/posts/20181212/</guid>
       <description>
 
 &lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
@@ -47,10 +109,10 @@
     
     <item>
       <title>2018/12/11</title>
-      <link>/posts/20181211/</link>
+      <link>https://mainichi.nichiyoubi.land/posts/20181211/</link>
       <pubDate>Tue, 11 Dec 2018 12:23:58 +0900</pubDate>
       
-      <guid>/posts/20181211/</guid>
+      <guid>https://mainichi.nichiyoubi.land/posts/20181211/</guid>
       <description>
 
 &lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
@@ -85,10 +147,10 @@
     
     <item>
       <title>2018/12/10</title>
-      <link>/posts/20181210/</link>
+      <link>https://mainichi.nichiyoubi.land/posts/20181210/</link>
       <pubDate>Mon, 10 Dec 2018 11:40:31 +0900</pubDate>
       
-      <guid>/posts/20181210/</guid>
+      <guid>https://mainichi.nichiyoubi.land/posts/20181210/</guid>
       <description>
 
 &lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
@@ -126,7 +188,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;/images/posts/2018-12-10-15-57-50.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mainichi.nichiyoubi.land/images/posts/2018-12-10-15-57-50.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;気になった記事-読んだ記事など&#34;&gt;気になった記事・読んだ記事など&lt;/h3&gt;
 
@@ -151,10 +213,10 @@
     
     <item>
       <title>2018/12/09</title>
-      <link>/posts/20181209/</link>
+      <link>https://mainichi.nichiyoubi.land/posts/20181209/</link>
       <pubDate>Sun, 09 Dec 2018 02:32:17 +0900</pubDate>
       
-      <guid>/posts/20181209/</guid>
+      <guid>https://mainichi.nichiyoubi.land/posts/20181209/</guid>
       <description>
 
 &lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
@@ -202,10 +264,10 @@
     
     <item>
       <title>2018/12/08</title>
-      <link>/posts/20181208/</link>
+      <link>https://mainichi.nichiyoubi.land/posts/20181208/</link>
       <pubDate>Sat, 08 Dec 2018 11:40:04 +0900</pubDate>
       
-      <guid>/posts/20181208/</guid>
+      <guid>https://mainichi.nichiyoubi.land/posts/20181208/</guid>
       <description>
 
 &lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
@@ -282,10 +344,10 @@
     
     <item>
       <title>2018/12/07</title>
-      <link>/posts/20181207/</link>
+      <link>https://mainichi.nichiyoubi.land/posts/20181207/</link>
       <pubDate>Fri, 07 Dec 2018 00:15:19 +0900</pubDate>
       
-      <guid>/posts/20181207/</guid>
+      <guid>https://mainichi.nichiyoubi.land/posts/20181207/</guid>
       <description>
 
 &lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
@@ -294,7 +356,7 @@
 
 &lt;p&gt;GA!GA!!
 &lt;a href=&#34;http://php.net/index.php#id2018-12-06-5&#34;&gt;http://php.net/index.php#id2018-12-06-5&lt;/a&gt;
-&lt;img src=&#34;/images/posts/2018-12-07-12-05-09.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://mainichi.nichiyoubi.land/images/posts/2018-12-07-12-05-09.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;そして私はDockerの公式イメージを待ち続け・・・&lt;br /&gt;
 &lt;a href=&#34;https://github.com/docker-library/php/commit/a280ab8e8790052338ce59a1fee739df8f831f16&#34;&gt;Update to 7.3.0 (GA) · docker-library/php@a280ab8&lt;/a&gt;&lt;/p&gt;
@@ -383,10 +445,10 @@ bash-4.4#
     
     <item>
       <title>2018/12/06</title>
-      <link>/posts/20181206/</link>
+      <link>https://mainichi.nichiyoubi.land/posts/20181206/</link>
       <pubDate>Thu, 06 Dec 2018 08:24:24 +0900</pubDate>
       
-      <guid>/posts/20181206/</guid>
+      <guid>https://mainichi.nichiyoubi.land/posts/20181206/</guid>
       <description>
 
 &lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
@@ -435,10 +497,10 @@ bash-4.4#
     
     <item>
       <title>2018/12/05</title>
-      <link>/posts/20181205/</link>
+      <link>https://mainichi.nichiyoubi.land/posts/20181205/</link>
       <pubDate>Wed, 05 Dec 2018 00:39:46 +0900</pubDate>
       
-      <guid>/posts/20181205/</guid>
+      <guid>https://mainichi.nichiyoubi.land/posts/20181205/</guid>
       <description>
 
 &lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
@@ -480,10 +542,10 @@ docer-php-ext-install、apk add php7-hogehoge、apk add php-hogehoge、pecl inst
     
     <item>
       <title>2018/12/04</title>
-      <link>/posts/20181204/</link>
+      <link>https://mainichi.nichiyoubi.land/posts/20181204/</link>
       <pubDate>Tue, 04 Dec 2018 19:43:17 +0900</pubDate>
       
-      <guid>/posts/20181204/</guid>
+      <guid>https://mainichi.nichiyoubi.land/posts/20181204/</guid>
       <description>
 
 &lt;p&gt;この投稿はテストです。&lt;br /&gt;
@@ -525,10 +587,10 @@ Terminal VIM / Visual Studio Codeがメインエディタになるのかな〜�
     
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>https://mainichi.nichiyoubi.land/about/</link>
       <pubDate>Tue, 04 Dec 2018 16:06:52 +0900</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://mainichi.nichiyoubi.land/about/</guid>
       <description>
 
 &lt;h3 id=&#34;about-this-site&#34;&gt;about this site&lt;/h3&gt;
