@@ -6,10 +6,64 @@
     <description>Recent content on まいにち書くぞ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 14 Dec 2018 08:58:18 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 16 Dec 2018 14:48:25 +0900</lastBuildDate>
     
         <atom:link href="https://mainichi.nichiyoubi.land/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2018/12/16</title>
+      <link>https://mainichi.nichiyoubi.land/posts/20181216/</link>
+      <pubDate>Sun, 16 Dec 2018 14:48:25 +0900</pubDate>
+      
+      <guid>https://mainichi.nichiyoubi.land/posts/20181216/</guid>
+      <description>
+
+&lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
+
+&lt;h4 id=&#34;archiveのやつ&#34;&gt;archiveのやつ&lt;/h4&gt;
+
+&lt;p&gt;初めてから2週間近く経って、「あwこれトップページに全ポスト表示されないじゃんww」というのに気づきました。&lt;br /&gt;
+ページングかアーカイブがあるといいなと思いました。&lt;br /&gt;
+今日になってやっと作りました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mainichi.nichiyoubi.land/archives&#34;&gt;https://mainichi.nichiyoubi.land/archives&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;有難うございます。&lt;/p&gt;
+
+&lt;h4 id=&#34;phpconferenceのやつ&#34;&gt;PHPConferenceのやつ&lt;/h4&gt;
+
+&lt;p&gt;私は1日中、自宅に引きこもっておりましたので。&lt;br /&gt;
+参戦してございませんが。&lt;br /&gt;
+一部のセッションなどはYoutubeで拝見しておりまして。&lt;br /&gt;
+楽しそうでございました。&lt;/p&gt;
+
+&lt;p&gt;どっかでぼーっとする時間を作って色々とキャッチアップしよーぜ！&lt;/p&gt;
+
+&lt;h4 id=&#34;思いつきのやつ&#34;&gt;思いつきのやつ&lt;/h4&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;Swooleについて調べる→コルーチンに興味を持つ→ジェネレータを利用したPHPでのマルチタスク実装の話を見つける→mysqlndにノンブロッキングモードがある事を知る→CakePHPで複数クエリの並列処理作れんじゃね・・・？て囁きが聞こえ始める/イマココ&lt;/p&gt;&amp;mdash; 今日も誰かのにちようび( クリスマス) (@o0h&lt;em&gt;) &amp;lt;a href=&amp;ldquo;&lt;a href=&#34;https://twitter.com/o0h&#34;&gt;https://twitter.com/o0h&lt;/a&gt;&lt;/em&gt;/status/1074156279638061056?ref_src=twsrc%5Etfw&amp;rdquo;&amp;gt;2018年12月16日&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;だた、CakePHPのMysqlドライバってPDOっすよね。ツイート投げてから気づいた。async行けるのかな？mysqliを使うドライバをまず作らないと無理かね・・・&lt;/p&gt;
+
+&lt;p&gt;非同期だとかマルチタスキングだとかノンブロッキングI/Oだとか、今まであんまり踏み込もうとしなかった領域だから知的好奇心的な負荷がすっごい。そして自分の知識の無さだったり適当さを呪いたくなるなー強くなりたいな〜！&lt;br /&gt;
+エキサイティングなのは間違いないんだけど、詳しい人が隣に居て色々と聞きながら学べると良い。本当は。&lt;/p&gt;
+
+&lt;h3 id=&#34;気になった記事-読んだ記事など&#34;&gt;気になった記事・読んだ記事など&lt;/h3&gt;
+
+&lt;h3 id=&#34;便利ツール-ショートカット&#34;&gt;便利ツール・ショートカット&lt;/h3&gt;
+
+&lt;h3 id=&#34;公開したもの&#34;&gt;公開したもの&lt;/h3&gt;
+
+&lt;h3 id=&#34;ひとこと&#34;&gt;ひとこと&lt;/h3&gt;
+
+&lt;p&gt;成功させてしまった・・&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;惰性を磨き横着を推し進めた結果、ベッドに潜りながらデュアルディスプレイを使うとかいう魔改造を成功させてしまった・・・&lt;/p&gt;&amp;mdash; 今日も誰かのにちようび( クリスマス) (@o0h&lt;em&gt;) &amp;lt;a href=&amp;ldquo;&lt;a href=&#34;https://twitter.com/o0h&#34;&gt;https://twitter.com/o0h&lt;/a&gt;&lt;/em&gt;/status/1074179141946068993?ref_src=twsrc%5Etfw&amp;rdquo;&amp;gt;2018年12月16日&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2018/12/14</title>
