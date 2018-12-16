@@ -68,24 +68,22 @@
   </url>
   
   <url>
-    <loc>https://mainichi.nichiyoubi.land/archives/2018/12/</loc>
-    <lastmod>2018-12-16T14:48:25+09:00</lastmod>
-    <priority>0</priority>
+    <loc>https://mainichi.nichiyoubi.land/archives/</loc>
   </url>
   
   <url>
-    <loc>https://mainichi.nichiyoubi.land/archives/</loc>
-    <lastmod>2018-12-16T14:48:25+09:00</lastmod>
+    <loc>https://mainichi.nichiyoubi.land/categories/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mainichi.nichiyoubi.land/archives/</loc>
   </url>
   
   <url>
     <loc>https://mainichi.nichiyoubi.land/posts/</loc>
     <lastmod>2018-12-16T14:48:25+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mainichi.nichiyoubi.land/tags/</loc>
     <priority>0</priority>
   </url>
   
