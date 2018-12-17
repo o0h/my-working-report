@@ -6,10 +6,44 @@
     <description>Recent content in Posts on まいにち書くぞ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 16 Dec 2018 14:48:25 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 17 Dec 2018 11:12:56 +0900</lastBuildDate>
     
         <atom:link href="https://mainichi.nichiyoubi.land/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2018/12/17</title>
+      <link>https://mainichi.nichiyoubi.land/posts/20181217/</link>
+      <pubDate>Mon, 17 Dec 2018 11:12:56 +0900</pubDate>
+      
+      <guid>https://mainichi.nichiyoubi.land/posts/20181217/</guid>
+      <description>
+
+&lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
+
+&lt;h4 id=&#34;xxxx&#34;&gt;xxxx&lt;/h4&gt;
+
+&lt;h4 id=&#34;xxxx-1&#34;&gt;xxxx&lt;/h4&gt;
+
+&lt;h3 id=&#34;気になった記事-読んだ記事など&#34;&gt;気になった記事・読んだ記事など&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mattn.kaoriya.net/software/lang/go/20181217000056.htm&#34;&gt;Big Sky :: gocode やめます(そして Language Server へ)&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;こういうふうに、誰かに心からの感謝や尊敬をうけるOSSってすごいと思う。かっけぇ。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;便利ツール-ショートカット&#34;&gt;便利ツール・ショートカット&lt;/h3&gt;
+
+&lt;h3 id=&#34;公開したもの&#34;&gt;公開したもの&lt;/h3&gt;
+
+&lt;h3 id=&#34;ひとこと&#34;&gt;ひとこと&lt;/h3&gt;
+
+&lt;p&gt;土日に全くコードを書いていなかった(調べ事とかはしていた)反動か、今日はすっごく生き生きとコードを書いていた気がする。なるほど・・・&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2018/12/16</title>
