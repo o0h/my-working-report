@@ -6,10 +6,59 @@
     <description>Recent content on まいにち書くぞ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 17 Dec 2018 11:12:56 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 18 Dec 2018 10:59:48 +0900</lastBuildDate>
     
         <atom:link href="https://mainichi.nichiyoubi.land/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2018/12/18</title>
+      <link>https://mainichi.nichiyoubi.land/posts/20181218/</link>
+      <pubDate>Tue, 18 Dec 2018 10:59:48 +0900</pubDate>
+      
+      <guid>https://mainichi.nichiyoubi.land/posts/20181218/</guid>
+      <description>
+
+&lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
+
+&lt;h4 id=&#34;visual-studio-codeのやつ&#34;&gt;Visual Studio Codeのやつ&lt;/h4&gt;
+
+&lt;p&gt;そういえばやっていなかったな〜と思って、extensionを(追加で)整えた。
+Project Manager、欲しいな〜と思ってworkspaceで頑張ってきたりもしたけれど、なんで探さなかったんだろう。あるよね〜&lt;/p&gt;
+
+&lt;h4 id=&#34;cakephpのやつ&#34;&gt;CakePHPのやつ&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://bakery.cakephp.org/2018/12/17/cakephp_371_released.html&#34;&gt;CakePHP 3.7.1 Released — Bakery&lt;/a&gt;
+&lt;div&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;うわああああコレめっちゃ嬉しい！！地味に！&lt;a href=&#34;https://t.co/tDmpXYqB68&#34;&gt;https://t.co/tDmpXYqB68&lt;/a&gt;&lt;/p&gt;&amp;mdash; 今日も誰かのにちようび( クリスマス) (@o0h_) &lt;a href=&#34;https://twitter.com/o0h_/status/1074870733543591936?ref_src=twsrc%5Etfw&#34;&gt;2018年12月18日&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;喜びがある。&lt;br /&gt;
+というのも、3.7.0が出たときにSlackのWSで「IntegrationTestTraitのsetUp()呼びたいんだけど、aliasを自分で当てて回避するしかない？」という質問をしていたのだった。&lt;br /&gt;
+助かる助かる。&lt;/p&gt;
+
+&lt;h3 id=&#34;気になった記事-読んだ記事など&#34;&gt;気になった記事・読んだ記事など&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sebastianbergmann/phpunit/issues/3340&#34;&gt;Specializations of assertEquals() and assertNotEquals() · Issue #3340 · sebastianbergmann/phpunit&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;レビュイーに &lt;code&gt;assertEquals()&lt;/code&gt; の引数を示しておきたくてググってたら見つけた。ほしい・・！&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;便利ツール-ショートカット&#34;&gt;便利ツール・ショートカット&lt;/h3&gt;
+
+&lt;h3 id=&#34;公開したもの&#34;&gt;公開したもの&lt;/h3&gt;
+
+&lt;h3 id=&#34;ひとこと&#34;&gt;ひとこと&lt;/h3&gt;
+
+&lt;p&gt;俺も最強の進捗を手に入れて、世界のことを愛したい！！！！って心の中で叫び続けた1日でした。余裕がないな〜&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2018/12/17</title>
