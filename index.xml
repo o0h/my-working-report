@@ -6,10 +6,66 @@
     <description>Recent content on まいにち書くぞ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 19 Dec 2018 11:37:17 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 20 Dec 2018 23:17:29 +0900</lastBuildDate>
     
         <atom:link href="https://mainichi.nichiyoubi.land/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2018/12/20</title>
+      <link>https://mainichi.nichiyoubi.land/posts/20181220/</link>
+      <pubDate>Thu, 20 Dec 2018 23:17:29 +0900</pubDate>
+      
+      <guid>https://mainichi.nichiyoubi.land/posts/20181220/</guid>
+      <description>
+
+&lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
+
+&lt;h4 id=&#34;森林破壊と深刻な現状&#34;&gt;森林破壊と深刻な現状&lt;/h4&gt;
+
+&lt;p&gt;(破壊されているわけではない)&lt;/p&gt;
+
+&lt;p&gt;いやー、すっからかん過ぎて凹む。。。来年は緑化活動に取り組みたい・・・・&lt;/p&gt;
+
+&lt;div&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;ワシゃ何職なんじゃ&lt;br&gt;&amp;gt; 私は2018年にGitHubで416コントリビュートし、Findy内で2251位でした。月間の最大は115 (12月)、一日あたりの平均は1.2/日でした。あなたも2018年のコントリビューション活動をチェックしよう！ &lt;a href=&#34;https://t.co/amredqgGsl&#34;&gt;https://t.co/amredqgGsl&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/findy?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#findy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AA%E3%83%93%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AA%E3%83%96%E3%82%B6%E3%82%A4%E3%83%A4%E3%83%BC?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#コントリビューションオブザイヤー&lt;/a&gt;&lt;/p&gt;&amp;mdash; 今日も誰かのにちようび( クリスマス) (@o0h_) &lt;a href=&#34;https://twitter.com/o0h_/status/1075333311914885120?ref_src=twsrc%5Etfw&#34;&gt;2018年12月19日&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;/div&gt;
+
+&lt;h4 id=&#34;私はsitemap-xmlがよくわからない&#34;&gt;私はsitemap.xmlがよくわからない&lt;/h4&gt;
+
+&lt;p&gt;Cake縛りブログ、せっかく記事書いているのだから誰かの役に立ったらいいな〜というモチベーションがある場にしているのに、Google先生にうまく引き渡せていないんですよねぇ。。。なんで。。。&lt;br /&gt;
+sitemap.xmlは確実にそこにあるし、validationも通っているのに、「アクセスできません」とかなんとか。。。&lt;/p&gt;
+
+&lt;h3 id=&#34;気になった記事-読んだ記事など&#34;&gt;気になった記事・読んだ記事など&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/koriym/items/7d4fd7b1efe41b06aff3&#34;&gt;BEAR.Sunday + Swoole - Qiita&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;なるほど、swooleすごそう！という思いがありつつ、同時に「じゃあPHP7.4で同じ効果が見込めそう？」などと感じていたのだけど。ちゃんと言及されてた。&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Swooleどっかで触ってみたいな！ + PHP7.4マジ楽しみ！という感情です&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/ryuichi1208/items/d49f3f6ba39c88899049&#34;&gt;Dockerfileの静的解析ツールが便利すぎた - Qiita&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;こういうのを、初めて知った瞬間にパパっと触ってみる！くらいの余裕がほしいのに最近もろもろに追い込まれていて、あかん・・・&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sakamata.hateblo.jp/entry/2018/12/17/141212&#34;&gt;プログラミングを続ける心構えみたいなもの - 作りたいものがありすぎる&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;便利ツール-ショートカット&#34;&gt;便利ツール・ショートカット&lt;/h3&gt;
+
+&lt;h3 id=&#34;公開したもの&#34;&gt;公開したもの&lt;/h3&gt;
+
+&lt;h3 id=&#34;ひとこと&#34;&gt;ひとこと&lt;/h3&gt;
+
+&lt;p&gt;明日を超えれば少し余裕が出るぞ、と思っている麺があります。&lt;br /&gt;
+というか、こうしている今において「明日」が近づいてくるのが絶望的&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2018/12/19</title>
