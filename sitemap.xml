@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mainichi.nichiyoubi.land/posts/20181225/</loc>
+    <lastmod>2018-12-25T12:45:07+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mainichi.nichiyoubi.land/posts/20181224/</loc>
     <lastmod>2018-12-24T21:52:14+09:00</lastmod>
   </url>
@@ -118,7 +123,7 @@
   
   <url>
     <loc>https://mainichi.nichiyoubi.land/posts/</loc>
-    <lastmod>2018-12-24T21:52:14+09:00</lastmod>
+    <lastmod>2018-12-25T12:45:07+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -129,7 +134,7 @@
   
   <url>
     <loc>https://mainichi.nichiyoubi.land/</loc>
-    <lastmod>2018-12-24T21:52:14+09:00</lastmod>
+    <lastmod>2018-12-25T12:45:07+09:00</lastmod>
     <priority>0</priority>
   </url>
   
