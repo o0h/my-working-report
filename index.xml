@@ -6,10 +6,99 @@
     <description>Recent content on まいにち書くぞ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 25 Dec 2018 12:45:07 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 27 Dec 2018 12:39:18 +0900</lastBuildDate>
     
         <atom:link href="https://mainichi.nichiyoubi.land/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2018/12/27</title>
+      <link>https://mainichi.nichiyoubi.land/posts/20181227/</link>
+      <pubDate>Thu, 27 Dec 2018 12:39:18 +0900</pubDate>
+      
+      <guid>https://mainichi.nichiyoubi.land/posts/20181227/</guid>
+      <description>
+
+&lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
+
+&lt;h4 id=&#34;障害対応のやつ&#34;&gt;障害対応のやつ&lt;/h4&gt;
+
+&lt;p&gt;「障害」には、必ずしも障害だけを含むわけじゃないよね。&lt;br /&gt;
+みたいなのを踏まえつつ、会社のチームで、「どうやってゼロ事故運動やってく？」みたいなのをまとめてみた。&lt;br /&gt;
+1時間位でばばばーっと書いたものだけど、改めて現状を鑑みると「もっとやれることありそだな〜」「このくらいは対応行けそうね！！」というのが、どんどんと明確になっていく(課題が見つかる、という意味も踏む。)&lt;/p&gt;
+
+&lt;p&gt;まだまだ小さいチームに少し円周が広がりました！くらいなので = 「隅々まで勝手知ったる」濃度が濃いチームなので、エスカレーションラインを高くしなくて済むし、初動・トリアージ段階でどのくらいを求めるか？をアグレッシブめに組みやすい。というのを感じた&lt;/p&gt;
+
+&lt;p&gt;先日、自分のブログ上で「コーディング規約ってさぁ」みたいな話も触れたが、「ルール作り」とか「ガイドライン」というのを練る寝ってみると、「今のチーム」「現時点でのサイズ」みたいなところを、普段とは違う観点で見下ろせるものだなと思う。おもしろもんだな。&lt;/p&gt;
+
+&lt;p&gt;ココらへん、成立したら会社のブログにでも書いてみようかな。&lt;/p&gt;
+
+&lt;h4 id=&#34;xxxx&#34;&gt;xxxx&lt;/h4&gt;
+
+&lt;h3 id=&#34;気になった記事-読んだ記事など&#34;&gt;気になった記事・読んだ記事など&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://xuwei-k.hatenablog.com/entry/20150210/1423612281&#34;&gt;travis-ciにtravis_retryという失敗しても何度かリトライする機能があるらしい件 - xuwei-k&amp;rsquo;s blog&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;知らなんだ&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;便利ツール-ショートカット&#34;&gt;便利ツール・ショートカット&lt;/h3&gt;
+
+&lt;h3 id=&#34;公開したもの&#34;&gt;公開したもの&lt;/h3&gt;
+
+&lt;h3 id=&#34;ひとこと&#34;&gt;ひとこと&lt;/h3&gt;
+
+&lt;p&gt;年末、なんかバババーーっと考えることが増えている気がするな。お休みの間に少し整理できるかな。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2018/12/26</title>
+      <link>https://mainichi.nichiyoubi.land/posts/20181226/</link>
+      <pubDate>Wed, 26 Dec 2018 04:34:52 +0900</pubDate>
+      
+      <guid>https://mainichi.nichiyoubi.land/posts/20181226/</guid>
+      <description>
+
+&lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
+
+&lt;h4 id=&#34;でーびーのやつ&#34;&gt;でーびーのやつ&lt;/h4&gt;
+
+&lt;p&gt;MySQL&amp;lt;-&amp;gt;PHPの、本番環境におけるランタイム系のエラーに苛まされている。しばらく、ずっと続いているやつ。  &lt;code&gt;getaddrinfo failed: Name or service not known
+php&lt;/code&gt; ですって。おかしいね。&lt;/p&gt;
+
+&lt;h4 id=&#34;sentryのやつ&#34;&gt;Sentryのやつ&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://mainichi.nichiyoubi.land/images/posts/2018-12-26-12-17-53.png&#34; alt=&#34;&#34; /&gt;
+とは私の言です。&lt;br /&gt;
+これ、もしかしてkibanaとか使うとうまくいくのかな？試してみた&lt;/p&gt;
+
+&lt;h4 id=&#34;執念深く仕事をする&#34;&gt;執念深く仕事をする&lt;/h4&gt;
+
+&lt;p&gt;「バグの調査」とか「不具合の原因究明」とか、そういうのは、ふわふわっと諦めないで「徹底的に絶対に潰す中身を絞り出してやる」という周年を持つことが必要だ、というのを学ばされたこの年末。&lt;br /&gt;
+それは「何かを考える」ということでもそうだし、そうじゃない活動、例えば「ドキュメントを書く」なども。他人が書いた内容において、情報がスカッスカとか観点が充分でないとか、そういうのをみると「もっと泥臭くやってくれ」と感じる場面がある。このあたりも、執念深く徹底的にやってもらえると良い。自分の取り組みはそうしたい。「ちゃんとやりました」という顔で丁寧さが欠如していると、それはただの「低品質だ」とも思うので。意図的に、あるいはコンセンサスを取って「このぶん書の狙いはこうだから、十分に目的を達成し得ると考え、こう書いている」という意思が伝わってくるようであれば、もちろんソレでOKで。&lt;br /&gt;
+「侮られるような仕事をするな」という話に至る。&lt;/p&gt;
+
+&lt;p&gt;ただし、前提として「概ね他人は自分の思考や視界など理解しないので」というのがあるので、やっぱり「手をちゃんと抜く」というのは高等技術でリスキーである。&lt;/p&gt;
+
+&lt;h3 id=&#34;気になった記事-読んだ記事など&#34;&gt;気になった記事・読んだ記事など&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://php.tekmemo.com/?p=1167&#34;&gt;PHPのテクメモ » Blog Archive » 持続的接続を理解するために（その1）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;便利ツール-ショートカット&#34;&gt;便利ツール・ショートカット&lt;/h3&gt;
+
+&lt;p&gt;たもの&lt;/p&gt;
+
+&lt;h3 id=&#34;ひとこと&#34;&gt;ひとこと&lt;/h3&gt;
+
+&lt;p&gt;ふふふ、飲み会。ふふふー&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2018/12/25</title>
