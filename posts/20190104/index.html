@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>2019/01/04</title>
+	
+	<meta name="description" content="">
+	<meta name="image" content="">
+	
+	<meta itemprop="name" content="2019/01/04">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta name="og:title" content="2019/01/04">
+	<meta name="og:description" content="">
+	
+	<meta name="og:url" content="https://mainichi.nichiyoubi.land/posts/20190104/">
+	<meta name="og:site_name" content="2019/01/04">
+	<meta name="og:type" content="article">
+	
+	<meta name="article:tag" content="">
+	<link rel="stylesheet" type="text/css" href="https://mainichi.nichiyoubi.land/css/style.css">
+	
+	
+</head>
+
+<body>
+
+<header>
+	
+	<a href="https://mainichi.nichiyoubi.land/" style="float: left;color:#ff3b30;">まいにち書くぞ</a>
+	
+	&nbsp;&nbsp;<a href="https://mainichi.nichiyoubi.land/archives/" style="color:#777;">Archives</a>&nbsp;&nbsp;<a href="https://mainichi.nichiyoubi.land/about/" style="color:#777;">About</a>
+	
+	<a href="https://mainichi.nichiyoubi.land/posts/index.xml" style="color:#777;float: right;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+</header>
+
+
+<div class="content">
+  <h1>2019/01/04</h1>
+  <aside></aside>
+  <p>
+
+<h3 id="よもやま">よもやま</h3>
+
+<h4 id="cakephp縛りブログのsitemap">CakePHP縛りブログのsitemap</h4>
+
+<p>cake.nichiyoubi.land、折角なにか書いているのにsearch consoleから送っても全然sitemapが登録されないなぁ。。と思って悲しんでいたのだけど、思い出して今日見てみたら「成功しました」になってた。やったー<br />
+でも、何だったんだろう。本当に単なる時間の問題だったんだろうか。2,3週間くらいかかったなぁ。</p>
+
+<h4 id="cakephp-3-7-2">CakePHP 3.7.2</h4>
+
+<p>来ましたね。かなりおとなしめな修正かな？っていう印象。(どういうキメでリリース切ってんだろう)<br />
+あとでブログにまとめます。</p>
+
+<h4 id="テストとスタブ">テストとスタブ</h4>
+
+<p>スキあらばPHPUnitで「prophecy使ったろwww」と画策しているのだけど、今までのモックの(partial mockの)ノリでいると中々適合しない。<br />
+・・・なるほど、これは設計というかテストの思想が美しくないんだろうな〜。。。と打ちのめされる。</p>
+
+<p>「メソッドAの内部で呼ばれるメソッドxをモックしたい」みたいなのだと、partial mockだとできなくて。(メソッドAを騙したいのである = メソッドA自体は動いていてほしい)<br />
+記述の簡潔性の面で、PHPUnitのMockObjectのそれは、十分に「ちゃんとしている」ので。実用に耐えうる = パット見で吐き気を催すようなことはない。<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup>
+これは「接地箇所にハリボテを置く」というやり方からは、反する。・・・多分、「モックの使い方」って本来はそういうものだよね？という風に感じている。</p>
+
+<p>預言者様、ごめんなさい・・・私は罪深いテストを書いております・・・</p>
+
+<p>でもなぁ、今の自分の実力や経験だと「部分的なモックに甘んじている」部分を配しきれないような気がする、これはどっかにブレイクするー転がってるのかなぁ〜。</p>
+
+<h4 id="昨年の振り返りとか新年のこととか">昨年の振り返りとか新年のこととか</h4>
+
+<p>一旦、テキスト化して吐き出しておきたいな〜！という気持ちがやっぱりあるな、週末やるか。<br />
+全然そのつもりだったけど、今日になって出社して隣の人と話してみたらいよいよ「絶対にGoをやる」という追い込まれが発生した。良さ。Go/JSやるやる詐欺に終止符を・・・超やるぞ・・</p>
+
+<h3 id="気になった記事-読んだ記事など">気になった記事・読んだ記事など</h3>
+
+<ul>
+<li><a href="https://www.webprofessional.jp/style-react-components-styled-components/">styled-componentsで変わるReactコンポーネントのスタイリング - WPJ</a></li>
+<li><a href="https://sentry.io/careers/1492956/">Open Source Engineer</a></li>
+</ul>
+
+<h3 id="便利ツール-ショートカット">便利ツール・ショートカット</h3>
+
+<h3 id="公開したもの">公開したもの</h3>
+
+<h3 id="ひとこと">ひとこと</h3>
+
+<p>今まで「なんかこういうの作ったら面白そうかもなー」メモを1人Slackに放り投げて言ってたんだけど、しばらくScrapboxを使ってみようという流れ。(モバイルappからのユーザビリティとかあるから、併用になるけど。slackの起用はflow側面が強くなる)</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1"><a href="https://taisablog.com/archives/55">こちらの記事</a>など大変詳しく、足がかりとしてとてもお世話になりました。
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+</ol>
+</div>
+</p>
+</div>
+
+
+  <p>Written on Jan 4, 2019.</p>
+
+
+<footer>
+	<p>&copy; 2019 All rights reserved.</p>
+</footer>
+</body>
+</html>
