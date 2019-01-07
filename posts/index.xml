@@ -6,10 +6,50 @@
     <description>Recent content in Posts on まいにち書くぞ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 05 Jan 2019 14:14:23 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 06 Jan 2019 17:12:27 +0900</lastBuildDate>
     
         <atom:link href="https://mainichi.nichiyoubi.land/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019/01/06</title>
+      <link>https://mainichi.nichiyoubi.land/posts/20190106/</link>
+      <pubDate>Sun, 06 Jan 2019 17:12:27 +0900</pubDate>
+      
+      <guid>https://mainichi.nichiyoubi.land/posts/20190106/</guid>
+      <description>
+
+&lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
+
+&lt;h4 id=&#34;xxxx&#34;&gt;xxxx&lt;/h4&gt;
+
+&lt;h4 id=&#34;xxxx-1&#34;&gt;xxxx&lt;/h4&gt;
+
+&lt;h3 id=&#34;気になった記事-読んだ記事など&#34;&gt;気になった記事・読んだ記事など&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://tomoima525.hatenablog.com/entry/2019/01/06/075644&#34;&gt;クライアントとサーバーどちらに実装するかの設計指針をチームで持つこと - tomoima525&amp;rsquo;s blog&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;素直に「よくまとまっているな！！」と、良い記事だな〜と思いつつ、ごく当たり前(かつ、一般化されている)に感じて「普通*普通」みたいな、物足りなさ？みたいなのも感じた。&lt;/li&gt;
+&lt;li&gt;へーしゃはコレ多分やれているのだけど、おそらく歴史的な経緯で「ネイティブの実装リソースが弱かった」ことに根差しているだけかも知れない。必然的に「サーバーで色々やろう」をせざるを得なかった、的な。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.cakephp.org/3.0/ja/phinx.html&#34;&gt;Phinx マイグレーション - 3.7&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;12月くらいから、やたらとDB使うPJの新規開始が多くなってるので改めて眺めてみてる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;便利ツール-ショートカット&#34;&gt;便利ツール・ショートカット&lt;/h3&gt;
+
+&lt;h3 id=&#34;公開したもの&#34;&gt;公開したもの&lt;/h3&gt;
+
+&lt;h3 id=&#34;ひとこと&#34;&gt;ひとこと&lt;/h3&gt;
+
+&lt;p&gt;先月・・はやる事が他にもあってアレだったけど、年末年始くらいから自分なりの「なんかサービス作ってるぞ！！！」感みたいなのがあって良い:)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2019/01/05</title>
