@@ -6,10 +6,146 @@
     <description>Recent content in Posts on まいにち書くぞ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 09 Jan 2019 11:15:02 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 15 Jan 2019 15:24:04 +0900</lastBuildDate>
     
         <atom:link href="https://mainichi.nichiyoubi.land/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019/01/15</title>
+      <link>https://mainichi.nichiyoubi.land/posts/20190115/</link>
+      <pubDate>Tue, 15 Jan 2019 15:24:04 +0900</pubDate>
+      
+      <guid>https://mainichi.nichiyoubi.land/posts/20190115/</guid>
+      <description>
+
+&lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
+
+&lt;h4 id=&#34;ランチ&#34;&gt;ランチ&lt;/h4&gt;
+
+&lt;p&gt;「プロダクトを作ってます」系の人とランチをしてきた。&lt;br /&gt;
+やっぱりものづくり、それも自分の思うようにやるソレは最高に楽しいよね〜！という感覚を改めてとらえた。&lt;br /&gt;
+私も、とっとと自分の pet projectをやらないと。というのと同時に、「新しいこと」をやっていかない・追いつけていないのは損失だな〜と痛感する。そっちもやっていきましょう&lt;/p&gt;
+
+&lt;h4 id=&#34;いわゆる-ormつらい-話&#34;&gt;いわゆる「ORMつらい」話&lt;/h4&gt;
+
+&lt;p&gt;ORM、「データマッピング」と「クエリビルダ」の2つがあって(雑に言うと)後者が割と「辛い」と言われる話なのかなって思ってる。&lt;br /&gt;
+業務でCakePHPを利用していますが、正に「思ったとおりにクエリを書くぞ」の部分で難儀してしまっているな〜。非常に便利なんだけど。主体的に知識を持つ「Table」クラスの存在など、とても。いいとこ取りしてぇ。。。&lt;/p&gt;
+
+&lt;h4 id=&#34;次世代webカンファレンスのやつ&#34;&gt;次世代Webカンファレンスのやつ&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=HR1pcyQ_i3I&#34;&gt;SRE - 次世代Webカンファレンス &lt;/a&gt;
+最近(でもないな。いつからだ。)、社内で監視がーとか障害はーとかって話をする？端的に言えばケツを叩く機会が多かったので、ちょっとSREって呼ばれる分野に近いかもしれない。そんなに調子乗るなよボケが、という話かもしれない。
+最終的に、SRE/Micro Service/Front-endの話を作業BGM代わりに聞いてた。&lt;/p&gt;
+
+&lt;p&gt;全体的な感想↓
+&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;最近、「エンジニアリングの話を聞きたい！！」って思ってワクワクしてると、組織やチームビルディングの話です〜みたいな経験が多い気がする。必然性は感じるけども。&lt;/p&gt;&amp;mdash; 今日も誰かのにちようび( クリスマス) (@o0h&lt;em&gt;) &amp;lt;a href=&amp;ldquo;&lt;a href=&#34;https://twitter.com/o0h&#34;&gt;https://twitter.com/o0h&lt;/a&gt;&lt;/em&gt;/status/1085074717852069889?ref_src=twsrc%5Etfw&amp;rdquo;&amp;gt;2019年1月15日&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;気になった記事-読んだ記事など&#34;&gt;気になった記事・読んだ記事など&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://phperkaigi.jp/2019/&#34;&gt;PHPerKaigi 2019&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;リニューアル！！！今までの姿はティーザーだったのか、あのまま行くのかと思ってたw&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://surveys.jetbrains.com/s3/sh-developer-ecosystem-survey-2019&#34;&gt;開発者エコシステムアンケート2019&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;非常に「お世話になっている」感が強いブランドだと、こういうの協力してみたくなるものだなーと思った。あとフォーム使い勝手良い感じがある&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;便利ツール-ショートカット&#34;&gt;便利ツール・ショートカット&lt;/h3&gt;
+
+&lt;h3 id=&#34;公開したもの&#34;&gt;公開したもの&lt;/h3&gt;
+
+&lt;h3 id=&#34;ひとこと&#34;&gt;ひとこと&lt;/h3&gt;
+
+&lt;p&gt;前Qのお仕事のお片付け最終章！！みたいなのが、今週。キリの良いとこまで進めたいなぁ〜というプレッシャーがある&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2019/01/11</title>
+      <link>https://mainichi.nichiyoubi.land/posts/20190111/</link>
+      <pubDate>Fri, 11 Jan 2019 22:53:41 +0900</pubDate>
+      
+      <guid>https://mainichi.nichiyoubi.land/posts/20190111/</guid>
+      <description>
+
+&lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
+
+&lt;h4 id=&#34;cakeのアソシエーションのやつ&#34;&gt;Cakeのアソシエーションのやつ&lt;/h4&gt;
+
+&lt;p&gt;Tableクラスを定義しない状態でAlias+targetTAableではったアソシエーション、Entityの生成手順が変わるのか・・？例えば「intカラム」に対応する(entityの)フィールドが文字列で返ってくる、などした。
+このあたりは意図しない挙動な気がするので、簡単な再現手順をまとめられたらIssue立ててみようかな。。なにか回避方法とか正しい設定方法があるのだろうか。。&lt;/p&gt;
+
+&lt;h4 id=&#34;xxxx&#34;&gt;xxxx&lt;/h4&gt;
+
+&lt;h3 id=&#34;気になった記事-読んだ記事など&#34;&gt;気になった記事・読んだ記事など&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.jetbrains.com/phpstorm/2019/01/nikita-popov-joins-phpstorm-team/&#34;&gt;Nikita Popov joins PhpStorm Team | PhpStorm Blog&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;初めて写真見た、意外と(失礼..)さわやかそうな人！！&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;便利ツール-ショートカット&#34;&gt;便利ツール・ショートカット&lt;/h3&gt;
+
+&lt;h3 id=&#34;公開したもの&#34;&gt;公開したもの&lt;/h3&gt;
+
+&lt;h3 id=&#34;ひとこと&#34;&gt;ひとこと&lt;/h3&gt;
+
+&lt;p&gt;年末年始からの個人開発、年明けからは平日もやってくぞ！！と思っていたけど、蓋開けてみたら今週平日ののプライベート開発時間がゼロだな。悲しい・・&lt;br /&gt;
+「会社が成長させてくれる」ような面はごく一部だと思うので、それでもし満ち足りているときならガンガンやろうぜ！！で良いと思っているのだけど、危機感はもっていないもの。生き残りたいい生き残りたい！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2019/01/10</title>
+      <link>https://mainichi.nichiyoubi.land/posts/20190110/</link>
+      <pubDate>Thu, 10 Jan 2019 11:30:21 +0900</pubDate>
+      
+      <guid>https://mainichi.nichiyoubi.land/posts/20190110/</guid>
+      <description>
+
+&lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
+
+&lt;h4 id=&#34;xxxx&#34;&gt;xxxx&lt;/h4&gt;
+
+&lt;h4 id=&#34;xxxx-1&#34;&gt;xxxx&lt;/h4&gt;
+
+&lt;h3 id=&#34;気になった記事-読んだ記事など&#34;&gt;気になった記事・読んだ記事など&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kabukawa.hatenablog.jp/entry/2019/01/09/110017&#34;&gt;mercari.go #5 - Above &amp;amp; Beyond&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/BEARSunday/status/1082972601771646976&#34;&gt;これ&lt;/a&gt;と&lt;a href=&#34;https://twitter.com/juve534/status/1083172766335959040&#34;&gt;これ&lt;/a&gt;が流れてきて読んだやつ&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.publickey1.jp/blog/19/awsdbamazon_documentdbmongodb.html&#34;&gt;AWSが新DBサービス「Amazon DocumentDB」発表。MongoDB互換のマネージドデータベース － Publickey&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;mongoDBはどうしても、日本で相当に流行した当時に運用を見ていて「これはつらそうだな」と思った印象が強いので・・・というのがありつつ、時代がついてきたのだろうか。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;便利ツール-ショートカット&#34;&gt;便利ツール・ショートカット&lt;/h3&gt;
+
+&lt;h3 id=&#34;公開したもの&#34;&gt;公開したもの&lt;/h3&gt;
+
+&lt;h3 id=&#34;ひとこと&#34;&gt;ひとこと&lt;/h3&gt;
+
+&lt;p&gt;「未知」は「不安」「麻痺」につながるなぁ、などということを思った。&lt;br /&gt;
+抽象的なことをいうつもりはなくて、端的に「ローカル開発でエラー出てたけどデータの整合性が壊れてるんだと思ってスルーしてたらロジックが壊れてたでござる」の巻。&lt;/p&gt;
+
+&lt;p&gt;「本番環境なら十分なスペックできっと動くさ」とか「データが揃ってれば問題ないっしょ！」が、とても癌。どうにかしたいなぁ。とはいえ「いつでも極上で完全(not完璧)な状態をどうぞ！」とはいかんもので、プラクティスをください・・・&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2019/01/09</title>
