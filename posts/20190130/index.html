@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>2019/01/30</title>
+	
+	<meta name="description" content="">
+	<meta name="image" content="">
+	
+	<meta itemprop="name" content="2019/01/30">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta name="og:title" content="2019/01/30">
+	<meta name="og:description" content="">
+	
+	<meta name="og:url" content="https://mainichi.nichiyoubi.land/posts/20190130/">
+	<meta name="og:site_name" content="2019/01/30">
+	<meta name="og:type" content="article">
+	
+	<meta name="article:tag" content="">
+	<link rel="stylesheet" type="text/css" href="https://mainichi.nichiyoubi.land/css/style.css">
+	
+	
+</head>
+
+<body>
+
+<header>
+	
+	<a href="https://mainichi.nichiyoubi.land/" style="float: left;color:#ff3b30;">まいにち書くぞ</a>
+	
+	&nbsp;&nbsp;<a href="https://mainichi.nichiyoubi.land/archives/" style="color:#777;">Archives</a>&nbsp;&nbsp;<a href="https://mainichi.nichiyoubi.land/about/" style="color:#777;">About</a>
+	
+	<a href="https://mainichi.nichiyoubi.land/posts/index.xml" style="color:#777;float: right;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+</header>
+
+
+<div class="content">
+  <h1>2019/01/30</h1>
+  <aside></aside>
+  <p>
+
+<p>ご無沙汰しております。<br />
+師が走り抜けていった12月、の後遺症で1月も消えてなくなっているな？という今日このごろ。</p>
+
+<h3 id="よもやま">よもやま</h3>
+
+<h4 id="自動化のメリット">自動化のメリット</h4>
+
+<p>「まぁ実装するよりオペでカバーしちゃったほうが早いよね」という話はあるし、そのバランスをとるのはとても大事だと思っている(弊社CTOもそういう思想が好きな人だ。)<br />
+「自動化のもたらす副効果」というのは馬鹿にならず、よく注目されるのが「属人性の排除」から生じる「均質化」「確度高く再現可能な内容が組み立てられる」といったもの。行程、とはまさにProgramのことで、行程組みとはまさにProgrammingのことではないか。というのは、よく非プログラマやジュニアの人と接するときに用いる概念。個人的なお気に入りでもある。)</p>
+
+<p>今日、隣のエンジニアと話していてハッとしたのが、自動化される作業そのものに付随するオーバーヘッドっていうのもあるよね・・？という点。<br />
+端的に、「こういうことを今からやります！」という、人対人のコミュニケーションのゼロ化である。コミュニケーション、協調をするには「ポーリング」や「接続の確率」が必要なので、ネゴシエーションってコスト高いよね？は普段のプログラミングにおいて考えている点ですよね？といった捉え方をするなら、やはり「誰かと一言、二言の口をきく」というのはコスト高なのだ。</p>
+
+<p>みたいなことを思った。</p>
+
+<h4 id="healthcheckエンドポイント">healthcheckエンドポイント</h4>
+
+<p>先週、入門漢詩を詠んだ(ブログかかないとな)。<br />
+その中に「ヘルスチェック用のエンドポイントを用意し、利用する」というものがあったのだけども、読んだときは「フフン？そう？」という感じがしていた。というのも、特定のエンドポイントに対する外形監視は(特殊なエンドポイントを用意しなくても)実施可能なわけで、ある意味「プロダクトコードとかけ離れた部分」を離島的に設置することは許されるの・・・？って思っていた。<br />
+ピンときていなかったのだけど！これは、「ビジネスKPIをモニタリングする」という文脈で考えると、例えば「過去24時間の投稿数」みたいなのがとれると。その集約データを、「アプリケーションロジックに語らせる」ということかな！？確かに、end-to-endで「リクエストからデータベースまで」を一気通貫的に「水を流してみる」ことができる。おぉ、なるほど・・？</p>
+
+<p>なんてことを、昨日の通勤中にふと思いついた。(そもそも、「そういうエンドポイントを起きましょう」ということで、本文中にて言及されていたかもしれない。読み落としたかな。)</p>
+
+<p>まぁ、違うかもしれない。</p>
+
+<p>どういうことしているんだろうな〜。</p>
+
+<div>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">/health エンドポイントパターンは僕も好きだなー。Pixelaにもそのためのエンドポイントを生やしてる。</p>&mdash; a-know (@a_know) <a href="https://twitter.com/a_know/status/1087508685469827072?ref_src=twsrc%5Etfw">2019年1月22日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</div>
+
+<h3 id="気になった記事-読んだ記事など">気になった記事・読んだ記事など</h3>
+
+<ul>
+<li><a href="https://qiita.com/rptrryo/items/465f9c0788e94186c5c5">おい、そこの新人くん - Qiita</a>
+
+<ul>
+<li>そうそう、当たり前にやれるようになってくれ！！！が詰まった記事だなという感想</li>
+</ul></li>
+</ul>
+
+<h3 id="便利ツール-ショートカット">便利ツール・ショートカット</h3>
+
+<h3 id="公開したもの">公開したもの</h3>
+
+<h3 id="ひとこと">ひとこと</h3>
+
+<p>しばらく書いたり書いていなかったりしたなー。2月もほどほどにやっていきたい！</p>
+</p>
+</div>
+
+
+  <p>Written on Jan 30, 2019.</p>
+
+
+<footer>
+	<p>&copy; 2019 All rights reserved.</p>
+</footer>
+</body>
+</html>

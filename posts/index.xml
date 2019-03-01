@@ -6,10 +6,157 @@
     <description>Recent content in Posts on まいにち書くぞ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 15 Jan 2019 15:24:04 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 28 Feb 2019 11:46:38 +0900</lastBuildDate>
     
         <atom:link href="https://mainichi.nichiyoubi.land/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019/02/28</title>
+      <link>https://mainichi.nichiyoubi.land/posts/20190228/</link>
+      <pubDate>Thu, 28 Feb 2019 11:46:38 +0900</pubDate>
+      
+      <guid>https://mainichi.nichiyoubi.land/posts/20190228/</guid>
+      <description>
+
+&lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
+
+&lt;h4 id=&#34;sentry-php-v2&#34;&gt;sentry-php v2&lt;/h4&gt;
+
+&lt;p&gt;が出ています。&lt;br /&gt;
+会社のSlackで、いくつかのレポジトリでreleases情報をsubscribeしていて、これもその内の1つだったので。&lt;br /&gt;
+「お、出たんだね〜」というのは気づいており。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/getsentry/sentry-php/blob/master/UPGRADE-2.0.md&#34;&gt;https://github.com/getsentry/sentry-php/blob/master/UPGRADE-2.0.md&lt;/a&gt;
+内容をよんで、会社の名義で出しているCakePHPプラグインも対応しないとな〜って思っていたところ・・・&lt;/p&gt;
+
+&lt;p&gt;Issueを作ってくださった！！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Connehito/cake-sentry/issues/10&#34;&gt;https://github.com/Connehito/cake-sentry/issues/10&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;はい、やります、やりたいぞ！！という気持ちがある。&lt;/p&gt;
+
+&lt;p&gt;CakePHP3.&lt;sup&gt;6&lt;/sup&gt;&amp;frasl;&lt;sub&gt;3&lt;/sub&gt;.7、PHP7.3対応もしないとなので、そろそろガっとやるかな〜。&lt;br /&gt;
+TravisCIのmatrix使って互換性を保ちつつやれば、進めやすくなりそうよね。&lt;/p&gt;
+
+&lt;p&gt;あと、初期開発当初よりはPHPUnitなりテストまわりの知識も補充されたとも思うし、久しぶりに深く踏み込んでやりたいな。&lt;br /&gt;
+ってのと、サンプルPJを解説して、CIを定期的に回しながら外形監視？E2E？みたいなことも、出来るのかなーなんてことを今朝妄想していた。&lt;/p&gt;
+
+&lt;h4 id=&#34;xxxx&#34;&gt;xxxx&lt;/h4&gt;
+
+&lt;h3 id=&#34;気になった記事-読んだ記事など&#34;&gt;気になった記事・読んだ記事など&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/hanhan1978/encourage-tdd-with-php-vcr?slide=37&#34;&gt;Encourage TDD with PHP-VCR - Speaker Deck&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;昨日参加した勉強会で発表されていて、気になったスライド&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;便利ツール-ショートカット&#34;&gt;便利ツール・ショートカット&lt;/h3&gt;
+
+&lt;h3 id=&#34;公開したもの&#34;&gt;公開したもの&lt;/h3&gt;
+
+&lt;h3 id=&#34;ひとこと&#34;&gt;ひとこと&lt;/h3&gt;
+
+&lt;p&gt;昨日は久々に外部の勉強会に参加することができ、今朝は運動にも行き、で🎉&lt;br /&gt;
+久々の勉強会は楽しかったなー。もっと馴染めるようになって、気軽に参加したい・・・&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2019/02/01</title>
+      <link>https://mainichi.nichiyoubi.land/posts/20190201/</link>
+      <pubDate>Fri, 01 Feb 2019 16:37:20 +0900</pubDate>
+      
+      <guid>https://mainichi.nichiyoubi.land/posts/20190201/</guid>
+      <description>
+
+&lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
+
+&lt;h4 id=&#34;xxxx&#34;&gt;xxxx&lt;/h4&gt;
+
+&lt;h4 id=&#34;xxxx-1&#34;&gt;xxxx&lt;/h4&gt;
+
+&lt;h3 id=&#34;気になった記事-読んだ記事など&#34;&gt;気になった記事・読んだ記事など&lt;/h3&gt;
+
+&lt;h3 id=&#34;便利ツール-ショートカット&#34;&gt;便利ツール・ショートカット&lt;/h3&gt;
+
+&lt;h3 id=&#34;公開したもの&#34;&gt;公開したもの&lt;/h3&gt;
+
+&lt;h3 id=&#34;ひとこと&#34;&gt;ひとこと&lt;/h3&gt;
+
+&lt;p&gt;社内LTで、入門監視の読後感想としての「こうしていきたい！！」みたいな話をした。&lt;br /&gt;
+回収票が数件なので、これで完全に勝ったぞ！！などど油断はできず、当然ながら粛々とやっていく必要がある・・・のだけど、その中でもちゃんと「刺さるところは刺さってるなぁ」「届いたみたいでよかったぞ〜」という気持ちになった。&lt;/p&gt;
+
+&lt;p&gt;ちゃんと見ていてね！頑張るよ！！というのと、おーけー！それはわかるよ！！というのが、双方的に繋がっていく〜と感じられる体験は良いものですよね。&lt;/p&gt;
+
+&lt;p&gt;あとは、今日話したことを、絵空事にせずにしっかり「現実のもの」に落としこんで行く必要はある。やりきるぞぉ&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2019/01/30</title>
+      <link>https://mainichi.nichiyoubi.land/posts/20190130/</link>
+      <pubDate>Wed, 30 Jan 2019 12:41:21 +0900</pubDate>
+      
+      <guid>https://mainichi.nichiyoubi.land/posts/20190130/</guid>
+      <description>
+
+&lt;p&gt;ご無沙汰しております。&lt;br /&gt;
+師が走り抜けていった12月、の後遺症で1月も消えてなくなっているな？という今日このごろ。&lt;/p&gt;
+
+&lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
+
+&lt;h4 id=&#34;自動化のメリット&#34;&gt;自動化のメリット&lt;/h4&gt;
+
+&lt;p&gt;「まぁ実装するよりオペでカバーしちゃったほうが早いよね」という話はあるし、そのバランスをとるのはとても大事だと思っている(弊社CTOもそういう思想が好きな人だ。)&lt;br /&gt;
+「自動化のもたらす副効果」というのは馬鹿にならず、よく注目されるのが「属人性の排除」から生じる「均質化」「確度高く再現可能な内容が組み立てられる」といったもの。行程、とはまさにProgramのことで、行程組みとはまさにProgrammingのことではないか。というのは、よく非プログラマやジュニアの人と接するときに用いる概念。個人的なお気に入りでもある。)&lt;/p&gt;
+
+&lt;p&gt;今日、隣のエンジニアと話していてハッとしたのが、自動化される作業そのものに付随するオーバーヘッドっていうのもあるよね・・？という点。&lt;br /&gt;
+端的に、「こういうことを今からやります！」という、人対人のコミュニケーションのゼロ化である。コミュニケーション、協調をするには「ポーリング」や「接続の確率」が必要なので、ネゴシエーションってコスト高いよね？は普段のプログラミングにおいて考えている点ですよね？といった捉え方をするなら、やはり「誰かと一言、二言の口をきく」というのはコスト高なのだ。&lt;/p&gt;
+
+&lt;p&gt;みたいなことを思った。&lt;/p&gt;
+
+&lt;h4 id=&#34;healthcheckエンドポイント&#34;&gt;healthcheckエンドポイント&lt;/h4&gt;
+
+&lt;p&gt;先週、入門漢詩を詠んだ(ブログかかないとな)。&lt;br /&gt;
+その中に「ヘルスチェック用のエンドポイントを用意し、利用する」というものがあったのだけども、読んだときは「フフン？そう？」という感じがしていた。というのも、特定のエンドポイントに対する外形監視は(特殊なエンドポイントを用意しなくても)実施可能なわけで、ある意味「プロダクトコードとかけ離れた部分」を離島的に設置することは許されるの・・・？って思っていた。&lt;br /&gt;
+ピンときていなかったのだけど！これは、「ビジネスKPIをモニタリングする」という文脈で考えると、例えば「過去24時間の投稿数」みたいなのがとれると。その集約データを、「アプリケーションロジックに語らせる」ということかな！？確かに、end-to-endで「リクエストからデータベースまで」を一気通貫的に「水を流してみる」ことができる。おぉ、なるほど・・？&lt;/p&gt;
+
+&lt;p&gt;なんてことを、昨日の通勤中にふと思いついた。(そもそも、「そういうエンドポイントを起きましょう」ということで、本文中にて言及されていたかもしれない。読み落としたかな。)&lt;/p&gt;
+
+&lt;p&gt;まぁ、違うかもしれない。&lt;/p&gt;
+
+&lt;p&gt;どういうことしているんだろうな〜。&lt;/p&gt;
+
+&lt;div&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;ja&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;/health エンドポイントパターンは僕も好きだなー。Pixelaにもそのためのエンドポイントを生やしてる。&lt;/p&gt;&amp;mdash; a-know (@a_know) &lt;a href=&#34;https://twitter.com/a_know/status/1087508685469827072?ref_src=twsrc%5Etfw&#34;&gt;2019年1月22日&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;気になった記事-読んだ記事など&#34;&gt;気になった記事・読んだ記事など&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/rptrryo/items/465f9c0788e94186c5c5&#34;&gt;おい、そこの新人くん - Qiita&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;そうそう、当たり前にやれるようになってくれ！！！が詰まった記事だなという感想&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;便利ツール-ショートカット&#34;&gt;便利ツール・ショートカット&lt;/h3&gt;
+
+&lt;h3 id=&#34;公開したもの&#34;&gt;公開したもの&lt;/h3&gt;
+
+&lt;h3 id=&#34;ひとこと&#34;&gt;ひとこと&lt;/h3&gt;
+
+&lt;p&gt;しばらく書いたり書いていなかったりしたなー。2月もほどほどにやっていきたい！&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2019/01/15</title>
