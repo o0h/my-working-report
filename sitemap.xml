@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mainichi.nichiyoubi.land/posts/20190304/</loc>
+    <lastmod>2019-03-04T16:22:31+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mainichi.nichiyoubi.land/posts/20190228/</loc>
     <lastmod>2019-02-28T11:46:38+09:00</lastmod>
   </url>
@@ -193,7 +198,7 @@
   
   <url>
     <loc>https://mainichi.nichiyoubi.land/posts/</loc>
-    <lastmod>2019-02-28T11:46:38+09:00</lastmod>
+    <lastmod>2019-03-04T16:22:31+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -204,7 +209,7 @@
   
   <url>
     <loc>https://mainichi.nichiyoubi.land/</loc>
-    <lastmod>2019-02-28T11:46:38+09:00</lastmod>
+    <lastmod>2019-03-04T16:22:31+09:00</lastmod>
     <priority>0</priority>
   </url>
   
