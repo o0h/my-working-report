@@ -6,10 +6,108 @@
     <description>Recent content in Posts on まいにち書くぞ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 04 Mar 2019 16:22:31 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 16 Oct 2019 11:11:23 +0900</lastBuildDate>
     
         <atom:link href="https://mainichi.nichiyoubi.land/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019/10/16</title>
+      <link>https://mainichi.nichiyoubi.land/posts/20191016/</link>
+      <pubDate>Wed, 16 Oct 2019 11:11:23 +0900</pubDate>
+      
+      <guid>https://mainichi.nichiyoubi.land/posts/20191016/</guid>
+      <description>
+
+&lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
+
+&lt;h4 id=&#34;新天地-day-2&#34;&gt;新天地 day-2&lt;/h4&gt;
+
+&lt;p&gt;昨日よりは、少し肩の力が抜けたかな〜という感じ。&lt;br /&gt;
+「オリエン」が充実している感じがある。トップに近い人の話を聞けたり、プロダクトの歴史を聞ける〜〜っていうのは効果ありそうだな。&lt;br /&gt;
+あと、こういう場で「入社時期が近い人」と顔を合わせられるのも良いな、と思った。あぁ、感想が完全に新入社員・・・&lt;/p&gt;
+
+&lt;p&gt;やっと「コードを書いてみる」という所のタスクをもらうところまで行ったので、少し安心。ここから先が長い。我慢の頃だな〜〜〜〜〜&lt;/p&gt;
+
+&lt;p&gt;開発フローやサービス構成など全てが新鮮である一方で、phpとかdockerの「やってきたこと」は通じるんだな、というのはシミジミと感じる。やらんといけんのは、「知ってる」を増やすことだな。そのためのいくつかの突破口を見出すこととか、適切な質問を投げかける力だとか、そういうのをちゃんと鍛える&lt;/p&gt;
+
+&lt;p&gt;入社して初めて(技術)ポエムが社内に投げられてる場面に出くわしたが、「ちゃんとやってる！！」て感じで先輩メンバーの強さを垣間見れた良い・・・&lt;/p&gt;
+
+&lt;h4 id=&#34;きゃっしゅれす&#34;&gt;きゃっしゅれす&lt;/h4&gt;
+
+&lt;p&gt;自社サービスのID決済が至るところに導入されていてとても体験がよい・・&lt;/p&gt;
+
+&lt;h3 id=&#34;気になった記事-読んだ記事など&#34;&gt;気になった記事・読んだ記事など&lt;/h3&gt;
+
+&lt;h3 id=&#34;便利ツール-ショートカット&#34;&gt;便利ツール・ショートカット&lt;/h3&gt;
+
+&lt;p&gt;今日はなんと言ってもこれでしょ・・・&lt;br /&gt;
+&lt;a href=&#34;https://slack.com/intl/ja-jp/features/workflow-automation&#34;&gt;ワークフローの自動化 | Slack&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;公開したもの&#34;&gt;公開したもの&lt;/h3&gt;
+
+&lt;h3 id=&#34;ひとこと&#34;&gt;ひとこと&lt;/h3&gt;
+
+&lt;p&gt;通っているフィットネスが近くなったなーとは思っていたのだけど、調べてみたらギリ徒歩圏！みたいな感じだったので試しに行ってみた。15分くらいか。これは通える・・・めっちゃ嬉しい・・・・&lt;/p&gt;
+
+&lt;p&gt;非常に空腹な状態でいったとはいえ、強度低めだったのにすごく疲れが残ったので体力おちてるな。&lt;br /&gt;
+あと、新環境で、自覚している以上に緊張しているんだろうな〜とも思うので、今はちょっと仕事は頑張りたい気持ちも抑えるのも必要なのかもしれん。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2019/10/15</title>
+      <link>https://mainichi.nichiyoubi.land/posts/20191015/</link>
+      <pubDate>Tue, 15 Oct 2019 11:01:06 +0900</pubDate>
+      
+      <guid>https://mainichi.nichiyoubi.land/posts/20191015/</guid>
+      <description>
+
+&lt;h3 id=&#34;よもやま&#34;&gt;よもやま&lt;/h3&gt;
+
+&lt;h4 id=&#34;新天地&#34;&gt;新天地&lt;/h4&gt;
+
+&lt;p&gt;今日から社会復帰して新天地。&lt;br /&gt;
+面子を見て、というか名前を聞いて改めて強い人達おおい・・・という感じ。&lt;br /&gt;
+CTO＋Tec Lead ＋ 勉強会でよく名前を見る人 ＋ Cakeのchangelogで昔からよく名前を見る人、みたいな。ここで自分が何できるか？みたいなのしっかり築いてかないと居づらいだろうな。 &lt;em&gt;バリューを出すぞ！バリューを出すぞ！！&lt;/em&gt; って気持ち。&lt;/p&gt;
+
+&lt;p&gt;改めて、先月までが長くいたし主要なプロダクト(nativeはやってないけど)は全部触ってきたしという「なんでも分かる」っていうスーパースター状態だったんだな〜と痛感する。なんもわからん。どこに何があるかもわからなければ、手順書に従って実行したコマンドが何をして何をもたらすのかもわからん。自分が想定していたよりも、遥かにサービスが複雑だったから！というのもあり、ダメージでかい。頑張り直しだなぁ、と思う。&lt;/p&gt;
+
+&lt;p&gt;一方で、チームメンバー（やチーム外の人も！）が手厚くフォローしてくれるな〜と感じる。たぶん会社の文化。適当にSlack放り込んだらめっちゃレスくる、みたいな。こういう「きっと期待してくれているんだろうな」という部分に対して、早いうちに打ち返していかんとならん。&lt;/p&gt;
+
+&lt;h4 id=&#34;qol&#34;&gt;QOL&lt;/h4&gt;
+
+&lt;p&gt;これまでとは働き方を見直したいな〜と感じる。要するに自分お時間を作る。&lt;/p&gt;
+
+&lt;h4 id=&#34;環境構築&#34;&gt;環境構築&lt;/h4&gt;
+
+&lt;p&gt;だいたいこんな感じなんじゃないの、ってやつを1,2日かけて入れてみるつもり&lt;/p&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Docker for Mac&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; PhpStorm&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; ゆたぽんふぉんと&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Slack のmobile appにWS足す&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Zsh&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Git&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; GitHubに鍵を追加する&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; .zshrc&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; .vimrc&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; .gitconfig(aliasとか)&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; vscode / SettingSync&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;いろいろなものが便利だなぁ&lt;/p&gt;
+
+&lt;h3 id=&#34;気になった記事-読んだ記事など&#34;&gt;気になった記事・読んだ記事など&lt;/h3&gt;
+
+&lt;h3 id=&#34;便利ツール-ショートカット&#34;&gt;便利ツール・ショートカット&lt;/h3&gt;
+
+&lt;h3 id=&#34;公開したもの&#34;&gt;公開したもの&lt;/h3&gt;
+
+&lt;h3 id=&#34;ひとこと&#34;&gt;ひとこと&lt;/h3&gt;
+</description>
+    </item>
     
     <item>
       <title>2019/03/04</title>
