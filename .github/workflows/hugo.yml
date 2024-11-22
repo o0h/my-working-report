@@ -43,6 +43,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
+      - name: Dirty patch to old hugo theme
+        run: |
+          sed -i 's|_internal/google_analytics_async.html|_internal/google_analytics.html|g' "themes/one/layouts/partials/header.html"
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
