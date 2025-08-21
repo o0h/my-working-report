@@ -49,6 +49,6 @@ fi
 git commit -m "$COMMIT_MSG"
 
 # プッシュ
-git push origin master
+git push origin main
 
 echo "$(date '+%Y-%m-%d %H:%M:%S') - Committed with message: $COMMIT_MSG" >> /tmp/auto-commit.log
