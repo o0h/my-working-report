@@ -8,7 +8,19 @@ This is a personal blog/journal website called "まいにち書くぞ" (Daily Wr
 
 ## Essential Commands
 
-### Build and Development
+### Using Makefile
+A Makefile is provided for common development tasks. Run `make help` to see all available commands.
+
+```bash
+# Quick start commands
+make serve          # Run local development server (with drafts)
+make new           # Create today's post
+make today         # Create today's post and start server
+make auto-commit   # Run auto-commit script
+make stats         # Show posting statistics
+```
+
+### Manual Commands
 ```bash
 # Build the site
 hugo
