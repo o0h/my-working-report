@@ -1,0 +1,100 @@
+/* Custom styles to override theme defaults */
+
+/* Standard blue color for links in article content paragraphs and lists */
+.content p a,
+.content li a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.content p a:hover,
+.content li a:hover {
+    color: #0052a3;
+    text-decoration: underline;
+}
+
+.content p a:visited,
+.content li a:visited {
+    color: #551a8b;
+}
+
+/* Standard list styles with custom markers - more specific selectors to override theme */
+.content > ul {
+    list-style-type: none !important;
+    margin-left: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.content > ul > li {
+    list-style-type: none !important;
+    margin-left: 0;
+    margin-bottom: 0.25em;
+    position: relative;
+    padding-left: 1.2em;
+}
+
+.content > ul > li::before {
+    content: "▼";
+    position: absolute;
+    left: 0;
+}
+
+/* Nested lists use default markers */
+.content ul ul {
+    list-style-type: disc !important;
+    margin-left: 1.5em;
+}
+
+.content ul ul li {
+    list-style-type: disc !important;
+    padding-left: 0;
+}
+
+.content ul ul ul {
+    list-style-type: circle !important;
+}
+
+.content ul ul ul li {
+    list-style-type: circle !important;
+}
+
+.content ul ul ul ul {
+    list-style-type: square !important;
+}
+
+.content ul ul ul ul li {
+    list-style-type: square !important;
+}
+
+.content ol {
+    list-style-type: decimal !important;
+    margin-left: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.content ol li {
+    list-style-type: decimal !important;
+    margin-left: 0;
+    margin-bottom: 0.25em;
+}
+
+/* Nested lists */
+.content ul li ul,
+.content ol li ol,
+.content ul li ol,
+.content ol li ul {
+    margin-top: 0.25em;
+}
+
+/* Fix for archive list which should not have markers */
+.archive ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.archive ul li {
+    margin-left: 0.75em;
+    list-style-type: none;
+}
